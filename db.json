@@ -1,0 +1,1196 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "HP 15s-FQ5112TU Laptop (12th Gen Intel Core i5-1235U/16GB/512GB SSD/Iris Xe Graphics/Windows 11 Home/MSO/FHD), 39.6 cm (15.6 inch), Natural Silver(493177049)",
+      "price": 62990,
+      "mrp": "74177",
+      "warranty": "1",
+      "keyfeatures": ["Processor: 12th Gen Intel Core i5-1235U",
+      "RAM: 16 GB",
+      "Internal Storage: 512 GB",
+      "Storage Type: SSD",
+      "Microsoft office: Yes"],
+      "save": "15",
+      "emi": "3024",
+      "category": "Laptop",
+      "brand": "HP",
+      "img": "https://www.reliancedigital.in/medias/HP-15-ec1025AX-Laptops-492849181-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzMTEyMzZ8aW1hZ2UvanBlZ3xpbWFnZXMvaDg2L2gxOC85NzgxMjQ1ODA0NTc0LmpwZ3w0ZTBiZTA5MjEzNmMxOTY0NTFlOThlODU1MmM0M2QwNThhOThjZjE3ZTc1YmMxMTIzZjFlYjkyZjI2ZTUyYzNi"
+    },{
+      "id": 2,
+      "name": "Lenovo L2IN IdeaPad 3 Laptop (11th Gen Intel Core i3-1115G4 /8GB/256GB SSD/Intel UHD Graphics/Windows 11/MSO/Full HD), 39.62 cm (15.6 inch)(492574725)",
+      "price": 34990,
+      "mrp": "59390",
+      "warranty": "2",
+      "keyfeatures": ["Intel Core i3-1115G4 Processor",
+      "RAM: 8GB",
+      "Internal storage: 256 GB",
+     " Storage Type: SSD",
+     " Operating system: Windows 11",
+      "Microsoft office included: Yes"],
+      "save": "41",
+      "emi": "1679.97",
+      "category": "Laptop",
+      "brand": "Lenovo",
+      "img": "https://www.reliancedigital.in/medias/Lenovo-S3-Laptops-492573437-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMjY0NzF8aW1hZ2UvanBlZ3xpbWFnZXMvaDQ3L2g4Yy85ODYxNDE0MzU0OTc0LmpwZ3w5MGI1ZGNlYWQyNGI4ZWJlMGI2MDg0ODJjYmQyOTg1M2EyZTRlZWRiMWIzM2Q3YzgwM2I2MTg1YjdhMjE0ZmQy"
+    },{
+      "id": 3,
+      "name": "Asus BQ512TS Vivobook Laptop (11th Gen Intel Core i5-1135G7/8GB/1TB HDD + 256GB SSD/2GB Nvidia GeForce MX330 Graphics/Windows 10/MSO/FHD), 39.62 cm (15.6 inch)(492574762)",
+      "price": 51990,
+      "mrp": "78990",
+      "warranty": "1",
+      "keyfeatures": [
+     " Processor : 11th Gen Intel Core i5-1135G7 Processor",
+   "RAM: 8GB",
+     " Internal Storage: 1TB + 256GB",
+     " Storage Type: Hybrid",
+      "Operating system: Windows 10",
+      "Microsoft Office Included: Yes"
+    ],
+      "save": "34",
+      "emi": "2496.19",
+      "category": "Laptop",
+      "brand": "Asus",
+"img":"https://www.reliancedigital.in/medias/Asus-BQ512TS-Laptops-492574762-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzNDA0Nzl8aW1hZ2UvanBlZ3xpbWFnZXMvaGQzL2g5MS85NzgxMjQ0ODIxNTM0LmpwZ3w2ZjBmOWFjNjYwNTQwYmMyNGY1OTY3Nzg4MWFmYjRlNDk0NzI2YmEyZDNhMTZjZDZkNWRjZjM5MmU5YWJlNzhi"
+    },
+    {
+      "id": 4,
+      "name": "Lenovo D1IN IdeaPad 5 Pro Laptop (AMD Ryzen 7 5800U/16GB/1TB SSD/AMD Radeon Graphics/Windows 11/MSO), 35.56 cm (14 inch)(492573890)",
+      "price": 69990,
+      "mrp": "117290",
+      "warranty": "3",
+      "keyfeatures": [
+       " AMD Ryzen 7 5800U Processor",
+"RAM: 16 GB",
+"Internal storage: 1 TB",
+"Storage Type: SSD",
+"Operating system: Windows 11",
+"Microsoft office included: Yes"
+      ],
+      "save": "40",
+      "emi": "3360.42",
+      "category": "Laptop",
+      "brand": "Lenovo",
+      "img":"https://www.reliancedigital.in/medias/Lenovo-D1IN-Laptops-492573890-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzNjQ0OTh8aW1hZ2UvanBlZ3xpbWFnZXMvaGNiL2hjZC85NjkxNTE0MzA2NTkwLmpwZ3wzNDRhMWE4MzE3ZWIyMDI1ZDViOWE2ODgwMDY2YThlNDYyYzVhNjJjMjVkNDBlMjJkNzEwMmZiYTljNGM2NDM5"
+    },{
+      "id": 5,
+      "name": "Asus AU521WS Laptop (11th Gen Intel Core i5-1135G7/16GB/512GB SSD/Intel Iris Xe Graphics/Window 11/MSO/FHD), 43.94 cm (17.3 inch)(492575355)",
+      "price": 51990,
+      "mrp": "85990",
+      "warranty": "1",
+      "keyfeatures": [
+        "Processor : 11th Gen Intel Core i5-1135G7 Processor",
+"RAM: 16GB",
+"Internal Storage: 512 GB",
+"Storage Type: SSD",
+"Operating System: Windows 11",
+"Microsoft Office Include: Yes"
+      ],
+      "save": "40",
+      "emi": "2496.19",
+      "category": "Laptop",
+      "brand": "Asus",
+      "img":"https://www.reliancedigital.in/medias/Asus-AU521WS-Laptops-492575355-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxODU1NzF8aW1hZ2UvanBlZ3xpbWFnZXMvaDMzL2g0ZC85NzgxMjQ0MTY2MTc0LmpwZ3xlNDcwNDQ3OWQyZTcxODhkODZhNGE3NmQwNjliYmJlNmIwYmM3ZmNmMjQ3MzhjMTI5MjRjM2U4NTE0NmMzOTNh"
+    },
+    
+    {
+      "id": 111,
+      "name": "HP 15s-FQ5112TU Laptop (12th Gen Intel Core i5-1235U/16GB/512GB SSD/Iris Xe Graphics/Windows 11 Home/MSO/FHD), 39.6 cm (15.6 inch), Natural Silver(493177049)",
+      "price": 62990,
+      "mrp": "74177",
+      "warranty": "1",
+      "keyfeatures": ["Processor: 12th Gen Intel Core i5-1235U",
+      "RAM: 16 GB",
+      "Internal Storage: 512 GB",
+      "Storage Type: SSD",
+      "Microsoft office: Yes"],
+      "save": "15",
+      "emi": "3024",
+      "category": "Laptop",
+      "brand": "HP",
+      "img": "https://www.reliancedigital.in/medias/HP-15-ec1025AX-Laptops-492849181-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzMTEyMzZ8aW1hZ2UvanBlZ3xpbWFnZXMvaDg2L2gxOC85NzgxMjQ1ODA0NTc0LmpwZ3w0ZTBiZTA5MjEzNmMxOTY0NTFlOThlODU1MmM0M2QwNThhOThjZjE3ZTc1YmMxMTIzZjFlYjkyZjI2ZTUyYzNi"
+    },{
+      "id": 211,
+      "name": "Lenovo L2IN IdeaPad 3 Laptop (11th Gen Intel Core i3-1115G4 /8GB/256GB SSD/Intel UHD Graphics/Windows 11/MSO/Full HD), 39.62 cm (15.6 inch)(492574725)",
+      "price": 34990,
+      "mrp": "59390",
+      "warranty": "2",
+      "keyfeatures": ["Intel Core i3-1115G4 Processor",
+      "RAM: 8GB",
+      "Internal storage: 256 GB",
+     " Storage Type: SSD",
+     " Operating system: Windows 11",
+      "Microsoft office included: Yes"],
+      "save": "41",
+      "emi": "1679.97",
+      "category": "Laptop",
+      "brand": "Lenovo",
+      "img": "https://www.reliancedigital.in/medias/Lenovo-S3-Laptops-492573437-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMjY0NzF8aW1hZ2UvanBlZ3xpbWFnZXMvaDQ3L2g4Yy85ODYxNDE0MzU0OTc0LmpwZ3w5MGI1ZGNlYWQyNGI4ZWJlMGI2MDg0ODJjYmQyOTg1M2EyZTRlZWRiMWIzM2Q3YzgwM2I2MTg1YjdhMjE0ZmQy"
+    },{
+      "id": 311,
+      "name": "Asus BQ512TS Vivobook Laptop (11th Gen Intel Core i5-1135G7/8GB/1TB HDD + 256GB SSD/2GB Nvidia GeForce MX330 Graphics/Windows 10/MSO/FHD), 39.62 cm (15.6 inch)(492574762)",
+      "price": 51990,
+      "mrp": "78990",
+      "warranty": "1",
+      "keyfeatures": [
+     " Processor : 11th Gen Intel Core i5-1135G7 Processor",
+   "RAM: 8GB",
+     " Internal Storage: 1TB + 256GB",
+     " Storage Type: Hybrid",
+      "Operating system: Windows 10",
+      "Microsoft Office Included: Yes"
+    ],
+      "save": "34",
+      "emi": "2496.19",
+      "category": "Laptop",
+      "brand": "Asus",
+"img":"https://www.reliancedigital.in/medias/Asus-BQ512TS-Laptops-492574762-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzNDA0Nzl8aW1hZ2UvanBlZ3xpbWFnZXMvaGQzL2g5MS85NzgxMjQ0ODIxNTM0LmpwZ3w2ZjBmOWFjNjYwNTQwYmMyNGY1OTY3Nzg4MWFmYjRlNDk0NzI2YmEyZDNhMTZjZDZkNWRjZjM5MmU5YWJlNzhi"
+    },
+    {
+      "id": 411,
+      "name": "Lenovo D1IN IdeaPad 5 Pro Laptop (AMD Ryzen 7 5800U/16GB/1TB SSD/AMD Radeon Graphics/Windows 11/MSO), 35.56 cm (14 inch)(492573890)",
+      "price": 69990,
+      "mrp": "117290",
+      "warranty": "3",
+      "keyfeatures": [
+       " AMD Ryzen 7 5800U Processor",
+"RAM: 16 GB",
+"Internal storage: 1 TB",
+"Storage Type: SSD",
+"Operating system: Windows 11",
+"Microsoft office included: Yes"
+      ],
+      "save": "40",
+      "emi": "3360.42",
+      "category": "Laptop",
+      "brand": "Lenovo",
+      "img":"https://www.reliancedigital.in/medias/Lenovo-D1IN-Laptops-492573890-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzNjQ0OTh8aW1hZ2UvanBlZ3xpbWFnZXMvaGNiL2hjZC85NjkxNTE0MzA2NTkwLmpwZ3wzNDRhMWE4MzE3ZWIyMDI1ZDViOWE2ODgwMDY2YThlNDYyYzVhNjJjMjVkNDBlMjJkNzEwMmZiYTljNGM2NDM5"
+    },{
+      "id": 511,
+      "name": "Asus AU521WS Laptop (11th Gen Intel Core i5-1135G7/16GB/512GB SSD/Intel Iris Xe Graphics/Window 11/MSO/FHD), 43.94 cm (17.3 inch)(492575355)",
+      "price": 51990,
+      "mrp": "85990",
+      "warranty": "1",
+      "keyfeatures": [
+        "Processor : 11th Gen Intel Core i5-1135G7 Processor",
+"RAM: 16GB",
+"Internal Storage: 512 GB",
+"Storage Type: SSD",
+"Operating System: Windows 11",
+"Microsoft Office Include: Yes"
+      ],
+      "save": "40",
+      "emi": "2496.19",
+      "category": "Laptop",
+      "brand": "Asus",
+      "img":"https://www.reliancedigital.in/medias/Asus-AU521WS-Laptops-492575355-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxODU1NzF8aW1hZ2UvanBlZ3xpbWFnZXMvaDMzL2g0ZC85NzgxMjQ0MTY2MTc0LmpwZ3xlNDcwNDQ3OWQyZTcxODhkODZhNGE3NmQwNjliYmJlNmIwYmM3ZmNmMjQ3MzhjMTI5MjRjM2U4NTE0NmMzOTNh"
+    },
+    {
+      "id": 122,
+      "name": "HP 15s-FQ5112TU Laptop (12th Gen Intel Core i5-1235U/16GB/512GB SSD/Iris Xe Graphics/Windows 11 Home/MSO/FHD), 39.6 cm (15.6 inch), Natural Silver(493177049)",
+      "price": 62990,
+      "mrp": "74177",
+      "warranty": "1",
+      "keyfeatures": ["Processor: 12th Gen Intel Core i5-1235U",
+      "RAM: 16 GB",
+      "Internal Storage: 512 GB",
+      "Storage Type: SSD",
+      "Microsoft office: Yes"],
+      "save": "15",
+      "emi": "3024",
+      "category": "Laptop",
+      "brand": "HP",
+      "img": "https://www.reliancedigital.in/medias/HP-15-ec1025AX-Laptops-492849181-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzMTEyMzZ8aW1hZ2UvanBlZ3xpbWFnZXMvaDg2L2gxOC85NzgxMjQ1ODA0NTc0LmpwZ3w0ZTBiZTA5MjEzNmMxOTY0NTFlOThlODU1MmM0M2QwNThhOThjZjE3ZTc1YmMxMTIzZjFlYjkyZjI2ZTUyYzNi"
+    },{
+      "id": 222,
+      "name": "Lenovo L2IN IdeaPad 3 Laptop (11th Gen Intel Core i3-1115G4 /8GB/256GB SSD/Intel UHD Graphics/Windows 11/MSO/Full HD), 39.62 cm (15.6 inch)(492574725)",
+      "price": 34990,
+      "mrp": "59390",
+      "warranty": "2",
+      "keyfeatures": ["Intel Core i3-1115G4 Processor",
+      "RAM: 8GB",
+      "Internal storage: 256 GB",
+     " Storage Type: SSD",
+     " Operating system: Windows 11",
+      "Microsoft office included: Yes"],
+      "save": "41",
+      "emi": "1679.97",
+      "category": "Laptop",
+      "brand": "Lenovo",
+      "img": "https://www.reliancedigital.in/medias/Lenovo-S3-Laptops-492573437-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMjY0NzF8aW1hZ2UvanBlZ3xpbWFnZXMvaDQ3L2g4Yy85ODYxNDE0MzU0OTc0LmpwZ3w5MGI1ZGNlYWQyNGI4ZWJlMGI2MDg0ODJjYmQyOTg1M2EyZTRlZWRiMWIzM2Q3YzgwM2I2MTg1YjdhMjE0ZmQy"
+    },{
+      "id": 322,
+      "name": "Asus BQ512TS Vivobook Laptop (11th Gen Intel Core i5-1135G7/8GB/1TB HDD + 256GB SSD/2GB Nvidia GeForce MX330 Graphics/Windows 10/MSO/FHD), 39.62 cm (15.6 inch)(492574762)",
+      "price": 51990,
+      "mrp": "78990",
+      "warranty": "1",
+      "keyfeatures": [
+     " Processor : 11th Gen Intel Core i5-1135G7 Processor",
+   "RAM: 8GB",
+     " Internal Storage: 1TB + 256GB",
+     " Storage Type: Hybrid",
+      "Operating system: Windows 10",
+      "Microsoft Office Included: Yes"
+    ],
+      "save": "34",
+      "emi": "2496.19",
+      "category": "Laptop",
+      "brand": "Asus",
+"img":"https://www.reliancedigital.in/medias/Asus-BQ512TS-Laptops-492574762-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzNDA0Nzl8aW1hZ2UvanBlZ3xpbWFnZXMvaGQzL2g5MS85NzgxMjQ0ODIxNTM0LmpwZ3w2ZjBmOWFjNjYwNTQwYmMyNGY1OTY3Nzg4MWFmYjRlNDk0NzI2YmEyZDNhMTZjZDZkNWRjZjM5MmU5YWJlNzhi"
+    },
+    {
+      "id": 422,
+      "name": "Lenovo D1IN IdeaPad 5 Pro Laptop (AMD Ryzen 7 5800U/16GB/1TB SSD/AMD Radeon Graphics/Windows 11/MSO), 35.56 cm (14 inch)(492573890)",
+      "price": 69990,
+      "mrp": "117290",
+      "warranty": "3",
+      "keyfeatures": [
+       " AMD Ryzen 7 5800U Processor",
+"RAM: 16 GB",
+"Internal storage: 1 TB",
+"Storage Type: SSD",
+"Operating system: Windows 11",
+"Microsoft office included: Yes"
+      ],
+      "save": "40",
+      "emi": "3360.42",
+      "category": "Laptop",
+      "brand": "Lenovo",
+      "img":"https://www.reliancedigital.in/medias/Lenovo-D1IN-Laptops-492573890-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzNjQ0OTh8aW1hZ2UvanBlZ3xpbWFnZXMvaGNiL2hjZC85NjkxNTE0MzA2NTkwLmpwZ3wzNDRhMWE4MzE3ZWIyMDI1ZDViOWE2ODgwMDY2YThlNDYyYzVhNjJjMjVkNDBlMjJkNzEwMmZiYTljNGM2NDM5"
+    },{
+      "id": 522,
+      "name": "Asus AU521WS Laptop (11th Gen Intel Core i5-1135G7/16GB/512GB SSD/Intel Iris Xe Graphics/Window 11/MSO/FHD), 43.94 cm (17.3 inch)(492575355)",
+      "price": 51990,
+      "mrp": "85990",
+      "warranty": "1",
+      "keyfeatures": [
+        "Processor : 11th Gen Intel Core i5-1135G7 Processor",
+"RAM: 16GB",
+"Internal Storage: 512 GB",
+"Storage Type: SSD",
+"Operating System: Windows 11",
+"Microsoft Office Include: Yes"
+      ],
+      "save": "40",
+      "emi": "2496.19",
+      "category": "Laptop",
+      "brand": "Asus",
+      "img":"https://www.reliancedigital.in/medias/Asus-AU521WS-Laptops-492575355-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxODU1NzF8aW1hZ2UvanBlZ3xpbWFnZXMvaDMzL2g0ZC85NzgxMjQ0MTY2MTc0LmpwZ3xlNDcwNDQ3OWQyZTcxODhkODZhNGE3NmQwNjliYmJlNmIwYmM3ZmNmMjQ3MzhjMTI5MjRjM2U4NTE0NmMzOTNh"
+    },
+    
+    {
+      "id": 1112,
+      "name": "HP 15s-FQ5112TU Laptop (12th Gen Intel Core i5-1235U/16GB/512GB SSD/Iris Xe Graphics/Windows 11 Home/MSO/FHD), 39.6 cm (15.6 inch), Natural Silver(493177049)",
+      "price": 62990,
+      "mrp": "74177",
+      "warranty": "1",
+      "keyfeatures": ["Processor: 12th Gen Intel Core i5-1235U",
+      "RAM: 16 GB",
+      "Internal Storage: 512 GB",
+      "Storage Type: SSD",
+      "Microsoft office: Yes"],
+      "save": "15",
+      "emi": "3024",
+      "category": "Laptop",
+      "brand": "HP",
+      "img": "https://www.reliancedigital.in/medias/HP-15-ec1025AX-Laptops-492849181-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzMTEyMzZ8aW1hZ2UvanBlZ3xpbWFnZXMvaDg2L2gxOC85NzgxMjQ1ODA0NTc0LmpwZ3w0ZTBiZTA5MjEzNmMxOTY0NTFlOThlODU1MmM0M2QwNThhOThjZjE3ZTc1YmMxMTIzZjFlYjkyZjI2ZTUyYzNi"
+    },{
+      "id": 2112,
+      "name": "Lenovo L2IN IdeaPad 3 Laptop (11th Gen Intel Core i3-1115G4 /8GB/256GB SSD/Intel UHD Graphics/Windows 11/MSO/Full HD), 39.62 cm (15.6 inch)(492574725)",
+      "price": 34990,
+      "mrp": "59390",
+      "warranty": "2",
+      "keyfeatures": ["Intel Core i3-1115G4 Processor",
+      "RAM: 8GB",
+      "Internal storage: 256 GB",
+     " Storage Type: SSD",
+     " Operating system: Windows 11",
+      "Microsoft office included: Yes"],
+      "save": "41",
+      "emi": "1679.97",
+      "category": "Laptop",
+      "brand": "Lenovo",
+      "img": "https://www.reliancedigital.in/medias/Lenovo-S3-Laptops-492573437-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMjY0NzF8aW1hZ2UvanBlZ3xpbWFnZXMvaDQ3L2g4Yy85ODYxNDE0MzU0OTc0LmpwZ3w5MGI1ZGNlYWQyNGI4ZWJlMGI2MDg0ODJjYmQyOTg1M2EyZTRlZWRiMWIzM2Q3YzgwM2I2MTg1YjdhMjE0ZmQy"
+    },{
+      "id": 3112,
+      "name": "Asus BQ512TS Vivobook Laptop (11th Gen Intel Core i5-1135G7/8GB/1TB HDD + 256GB SSD/2GB Nvidia GeForce MX330 Graphics/Windows 10/MSO/FHD), 39.62 cm (15.6 inch)(492574762)",
+      "price": 51990,
+      "mrp": "78990",
+      "warranty": "1",
+      "keyfeatures": [
+     " Processor : 11th Gen Intel Core i5-1135G7 Processor",
+   "RAM: 8GB",
+     " Internal Storage: 1TB + 256GB",
+     " Storage Type: Hybrid",
+      "Operating system: Windows 10",
+      "Microsoft Office Included: Yes"
+    ],
+      "save": "34",
+      "emi": "2496.19",
+      "category": "Laptop",
+      "brand": "Asus",
+"img":"https://www.reliancedigital.in/medias/Asus-BQ512TS-Laptops-492574762-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzNDA0Nzl8aW1hZ2UvanBlZ3xpbWFnZXMvaGQzL2g5MS85NzgxMjQ0ODIxNTM0LmpwZ3w2ZjBmOWFjNjYwNTQwYmMyNGY1OTY3Nzg4MWFmYjRlNDk0NzI2YmEyZDNhMTZjZDZkNWRjZjM5MmU5YWJlNzhi"
+    },
+    {
+      "id": 4112,
+      "name": "Lenovo D1IN IdeaPad 5 Pro Laptop (AMD Ryzen 7 5800U/16GB/1TB SSD/AMD Radeon Graphics/Windows 11/MSO), 35.56 cm (14 inch)(492573890)",
+      "price": 69990,
+      "mrp": "117290",
+      "warranty": "3",
+      "keyfeatures": [
+       " AMD Ryzen 7 5800U Processor",
+"RAM: 16 GB",
+"Internal storage: 1 TB",
+"Storage Type: SSD",
+"Operating system: Windows 11",
+"Microsoft office included: Yes"
+      ],
+      "save": "40",
+      "emi": "3360.42",
+      "category": "Laptop",
+      "brand": "Lenovo",
+      "img":"https://www.reliancedigital.in/medias/Lenovo-D1IN-Laptops-492573890-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzNjQ0OTh8aW1hZ2UvanBlZ3xpbWFnZXMvaGNiL2hjZC85NjkxNTE0MzA2NTkwLmpwZ3wzNDRhMWE4MzE3ZWIyMDI1ZDViOWE2ODgwMDY2YThlNDYyYzVhNjJjMjVkNDBlMjJkNzEwMmZiYTljNGM2NDM5"
+    },{
+      "id": 5112,
+      "name": "Asus AU521WS Laptop (11th Gen Intel Core i5-1135G7/16GB/512GB SSD/Intel Iris Xe Graphics/Window 11/MSO/FHD), 43.94 cm (17.3 inch)(492575355)",
+      "price": 51990,
+      "mrp": "85990",
+      "warranty": "1",
+      "keyfeatures": [
+        "Processor : 11th Gen Intel Core i5-1135G7 Processor",
+"RAM: 16GB",
+"Internal Storage: 512 GB",
+"Storage Type: SSD",
+"Operating System: Windows 11",
+"Microsoft Office Include: Yes"
+      ],
+      "save": "40",
+      "emi": "2496.19",
+      "category": "Laptop",
+      "brand": "Asus",
+      "img":"https://www.reliancedigital.in/medias/Asus-AU521WS-Laptops-492575355-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxODU1NzF8aW1hZ2UvanBlZ3xpbWFnZXMvaDMzL2g0ZC85NzgxMjQ0MTY2MTc0LmpwZ3xlNDcwNDQ3OWQyZTcxODhkODZhNGE3NmQwNjliYmJlNmIwYmM3ZmNmMjQ3MzhjMTI5MjRjM2U4NTE0NmMzOTNh"
+    },
+    {
+      "id": 6,
+      "name": "Sansui 7 Kg Semi Automatic Top Loading Washing Machine with 3 Wash Programs, JSP70S-2024L, Burgundy(492664389)",
+      "price": 7290,
+      "mrp": "12490",
+      "warranty": "2",
+      "keyfeatures": [
+        "Powerful washer",
+"3 Wash Programs",
+"Capacity: 7 Kg",
+"Multi-functional wash programs and ergonomic knobs",
+"High quality ABS lid",
+"Stunning body"
+      ],
+      "save": "42",
+      "emi": "350.01",
+      "category": "HomeAppliances",
+      "brand": "Sansui",
+      "img":"https://www.reliancedigital.in/medias/SANSUI-JSP70S-2024L-Washing-Machines-492664389-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzNTIyMTR8aW1hZ2UvanBlZ3xpbWFnZXMvaDVkL2g5NC85ODk0NjY1MTI1OTE4LmpwZ3wxMTM3YzNkNzU4OTg0ZjIxYzVhM2E2NTFkMDNkMjhiMDRmOTZhYzRjM2RkMDYyZjViZjVmMGNiODIxZTdiZDY1"
+    },
+    {
+      "id": 7,
+      "name": "Samsung 1.5 Ton 4 Star AR18BY4YATA Inverter Split AC,HD Filter, 2 Way Swing, Floral Design, 5 in 1 Convertible (2022 Launch)(581026750)",
+      "price": 39990,
+      "mrp": "63990",
+      "warranty": "1",
+      "keyfeatures": [
+      "  5 Years Comprehensive warranty till 31st March'28",
+"HD Filter",
+"2 Way Swing, Floral Design",
+"5 in 1 Convertible",
+"Stabilizer Free Operation",
+"Auto Clean Function"
+      ],
+      "save": "38",
+      "emi": "1920.04",
+      "category": "HomeAppliances",
+      "brand": "Samsung",
+      "img":"https://www.reliancedigital.in/medias/SAMSUNG-AR18BY4YATA-Split-Air-conditioner-581026750-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1MDY2OXxpbWFnZS9qcGVnfGltYWdlcy9oNzIvaGMzLzk3ODUxMTAzOTY5NTguanBnfDVmYzhjMzYxYmVhYTVhOGRiYWViNDg4YWM2MDk0YzNiODZmYWMyMjFhNWU5MzQ5NjdiZjM5MGFlNTVjN2VlMjc"
+    },
+    {
+      "id": 8,
+      "name": "Kelvinator 170 litres Direct Cool 2 Star Single Door Refrigerator, Maroon Red, KRD-C190MRP(492911043)",
+      "price": 10990,
+      "mrp": "15990",
+      "warranty": "1",
+      "keyfeatures": [
+        "Compressor Type: Reciprocating",
+"User Comfort: Jumbo Freezer, Toughened Glass Shelves, Fungus Free Door", "Twist Ice-Tray",
+"Power Performance: Stabilizer Free Operation, Eco Gas",
+"No. of Shelves: 2"
+      ],
+      "save": "31",
+      "emi": "527.66",
+      "category": "HomeAppliances",
+      "brand": "Kelvinator",
+      "img":"https://www.reliancedigital.in/medias/KELVINATOR-170L-KRD-C190MRP-Refrigerator-492911043-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1NDM0MzF8aW1hZ2UvcG5nfGltYWdlcy9oMDkvaDc4Lzk4Nzc4MzkxMTgzNjYucG5nfDRiNzc3Y2I3ZWUwMDA0Zjk3Zjc5ZjY1ZTkzZDBjNWY2MmViM2E2ZTkyZTUxYzYzYWIwMzczMDYzMjRjMDQ5NWU"
+    },
+    {
+      "id": 9,
+      "name": "LG 8 litres RO + UV + UF Water Purifier, WW184EPB with Mineral Booster, 2-in-1 Water Solution (Drinking + Fruit & Veggie Cleaning), Black(492284046)",
+      "price": 28490,
+      "mrp": "36999",
+      "warranty": "1",
+      "keyfeatures": [
+      "  Dual Protection Stainless Steel Tank",
+"Mineral Booster",
+"2-in-1 Water Solution",
+"EverFresh UV Plus",
+"Enhanced Water Savings",
+"Complementary True Maintenance Package"
+      ],
+      "save": "23",
+      "emi": "1367.89",
+      "category": "HomeAppliances",
+      "brand": "LG",
+      "img":"https://www.reliancedigital.in/medias/LG-WW184EPB-Water-Purifiers-492284046-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNTc0Nzd8aW1hZ2UvanBlZ3xpbWFnZXMvaDQ3L2g0YS85NTkzOTk3NTkwNTU4LmpwZ3xiODlmMzkzMGM0NWViN2I5ZDg0N2UwNTcwYmYyM2Y2NWE4ZWUzYTRjMGQwNzUwNmZmN2RmZTAyMmJiNTRmYTc2"
+    },
+    {
+      "id": 10,
+      "name": "Karbonn 7 Kg Semi Automatic Top Load Washing Machine, White/Red, KJC70S-2024L(493627329)",
+      "price": 6990,
+      "mrp": "13490",
+      "warranty": "2",
+      "keyfeatures": [
+       " Semi Automatic Top Load",
+"Max. Spin Speed: 1300 rpm",
+"Capacity: 7 Kg",
+"Dryer Capacity: 4.5 Kg"
+      ],
+      "save": "48",
+      "emi": "335.61",
+      "category": "HomeAppliances",
+      "brand": "Karbonn",
+      "img":"https://www.reliancedigital.in/medias/Karbonn-KJC70S-2024L-Washing-Machine-493627329-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w0NTYxODF8aW1hZ2UvanBlZ3xpbWFnZXMvaDE1L2gwOS85OTI4MzIyNTgwNTEwLmpwZ3w5YTI1NzE4ZGRlNThmZmFmNGNlMmMyMGFjZGVlODU3OTE5MWU0MjY5N2U1YWMxN2ZjNjJiMjUwZTI1Mzc2ZTAz"
+    },
+    {
+      "id": 611,
+      "name": "Sansui 7 Kg Semi Automatic Top Loading Washing Machine with 3 Wash Programs, JSP70S-2024L, Burgundy(492664389)",
+      "price": 7290,
+      "mrp": "12490",
+      "warranty": "2",
+      "keyfeatures": [
+        "Powerful washer",
+"3 Wash Programs",
+"Capacity: 7 Kg",
+"Multi-functional wash programs and ergonomic knobs",
+"High quality ABS lid",
+"Stunning body"
+      ],
+      "save": "42",
+      "emi": "350.01",
+      "category": "HomeAppliances",
+      "brand": "Sansui",
+      "img":"https://www.reliancedigital.in/medias/SANSUI-JSP70S-2024L-Washing-Machines-492664389-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzNTIyMTR8aW1hZ2UvanBlZ3xpbWFnZXMvaDVkL2g5NC85ODk0NjY1MTI1OTE4LmpwZ3wxMTM3YzNkNzU4OTg0ZjIxYzVhM2E2NTFkMDNkMjhiMDRmOTZhYzRjM2RkMDYyZjViZjVmMGNiODIxZTdiZDY1"
+    },
+    {
+      "id": 711,
+      "name": "Samsung 1.5 Ton 4 Star AR18BY4YATA Inverter Split AC,HD Filter, 2 Way Swing, Floral Design, 5 in 1 Convertible (2022 Launch)(581026750)",
+      "price": 39990,
+      "mrp": "63990",
+      "warranty": "1",
+      "keyfeatures": [
+      "  5 Years Comprehensive warranty till 31st March'28",
+"HD Filter",
+"2 Way Swing, Floral Design",
+"5 in 1 Convertible",
+"Stabilizer Free Operation",
+"Auto Clean Function"
+      ],
+      "save": "38",
+      "emi": "1920.04",
+      "category": "HomeAppliances",
+      "brand": "Samsung",
+      "img":"https://www.reliancedigital.in/medias/SAMSUNG-AR18BY4YATA-Split-Air-conditioner-581026750-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1MDY2OXxpbWFnZS9qcGVnfGltYWdlcy9oNzIvaGMzLzk3ODUxMTAzOTY5NTguanBnfDVmYzhjMzYxYmVhYTVhOGRiYWViNDg4YWM2MDk0YzNiODZmYWMyMjFhNWU5MzQ5NjdiZjM5MGFlNTVjN2VlMjc"
+    },
+    {
+      "id": 811,
+      "name": "Kelvinator 170 litres Direct Cool 2 Star Single Door Refrigerator, Maroon Red, KRD-C190MRP(492911043)",
+      "price": 10990,
+      "mrp": "15990",
+      "warranty": "1",
+      "keyfeatures": [
+        "Compressor Type: Reciprocating",
+"User Comfort: Jumbo Freezer, Toughened Glass Shelves, Fungus Free Door", "Twist Ice-Tray",
+"Power Performance: Stabilizer Free Operation, Eco Gas",
+"No. of Shelves: 2"
+      ],
+      "save": "31",
+      "emi": "527.66",
+      "category": "HomeAppliances",
+      "brand": "Kelvinator",
+      "img":"https://www.reliancedigital.in/medias/KELVINATOR-170L-KRD-C190MRP-Refrigerator-492911043-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1NDM0MzF8aW1hZ2UvcG5nfGltYWdlcy9oMDkvaDc4Lzk4Nzc4MzkxMTgzNjYucG5nfDRiNzc3Y2I3ZWUwMDA0Zjk3Zjc5ZjY1ZTkzZDBjNWY2MmViM2E2ZTkyZTUxYzYzYWIwMzczMDYzMjRjMDQ5NWU"
+    },
+    {
+      "id": 911,
+      "name": "LG 8 litres RO + UV + UF Water Purifier, WW184EPB with Mineral Booster, 2-in-1 Water Solution (Drinking + Fruit & Veggie Cleaning), Black(492284046)",
+      "price": 28490,
+      "mrp": "36999",
+      "warranty": "1",
+      "keyfeatures": [
+      "  Dual Protection Stainless Steel Tank",
+"Mineral Booster",
+"2-in-1 Water Solution",
+"EverFresh UV Plus",
+"Enhanced Water Savings",
+"Complementary True Maintenance Package"
+      ],
+      "save": "23",
+      "emi": "1367.89",
+      "category": "HomeAppliances",
+      "brand": "LG",
+      "img":"https://www.reliancedigital.in/medias/LG-WW184EPB-Water-Purifiers-492284046-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNTc0Nzd8aW1hZ2UvanBlZ3xpbWFnZXMvaDQ3L2g0YS85NTkzOTk3NTkwNTU4LmpwZ3xiODlmMzkzMGM0NWViN2I5ZDg0N2UwNTcwYmYyM2Y2NWE4ZWUzYTRjMGQwNzUwNmZmN2RmZTAyMmJiNTRmYTc2"
+    },
+    {
+      "id": 1011,
+      "name": "Karbonn 7 Kg Semi Automatic Top Load Washing Machine, White/Red, KJC70S-2024L(493627329)",
+      "price": 6990,
+      "mrp": "13490",
+      "warranty": "2",
+      "keyfeatures": [
+       " Semi Automatic Top Load",
+"Max. Spin Speed: 1300 rpm",
+"Capacity: 7 Kg",
+"Dryer Capacity: 4.5 Kg"
+      ],
+      "save": "48",
+      "emi": "335.61",
+      "category": "HomeAppliances",
+      "brand": "Karbonn",
+      "img":"https://www.reliancedigital.in/medias/Karbonn-KJC70S-2024L-Washing-Machine-493627329-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w0NTYxODF8aW1hZ2UvanBlZ3xpbWFnZXMvaDE1L2gwOS85OTI4MzIyNTgwNTEwLmpwZ3w5YTI1NzE4ZGRlNThmZmFmNGNlMmMyMGFjZGVlODU3OTE5MWU0MjY5N2U1YWMxN2ZjNjJiMjUwZTI1Mzc2ZTAz"
+    },
+    {
+      "id": 21,
+      "name": "Delonghi KH771230V 3000W Oil Filled Room Heater with 12 Fins, White(491959040)",
+      "price": 12999,
+      "mrp": "18790",
+      "warranty": "1",
+      "keyfeatures": [
+      "  Min: 900 Watt, Max: 3000 Watt",
+        "Patented Thermal Slot Technology",
+        "3 Level Heating System",
+        "Dual Safety Thermostat",
+      "  Additional Fan Heater"
+      ],
+      "save": "31",
+      "emi": "624.12",
+      "category": "HomeAppliances",
+      "brand": "Delonghi",
+      "img":"https://www.reliancedigital.in/medias/Delonghi-KH771230V-Radiator-491959040-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w4MDYzMXxpbWFnZS9qcGVnfGltYWdlcy9oOTgvaGI3Lzk5MjIzOTM2MDQxMjYuanBnfDA1MzU3MjJhNWUzY2RhOGY0MDkxNjY4MmE5MmE2Y2U5NTY1ZGRkNDY3MzI1NjVjYTZmMmY0MjM2MjU3NmI3ODc"
+    }
+    ,
+    {
+      "id": 22,
+      "name": "Motorola G62 5G 128 GB, 6 GB RAM, Midnight Grey, Mobile Phone(493177198)",
+      "price": 14999,
+      "mrp": "21999",
+      "warranty": "1",
+      "keyfeatures": [
+       " 16.5 cm (6.5 Inch) 2400 x 1080 Full HD+ Display",
+"50 MP + 8 MP + 2 MP Primary Camera",
+"16 MP Front Camera, 5000 mAh Battery",
+"120 Hz refresh rate, Multidimensional stereo sound",
+"Water-repellent design, 2 microphones",
+"Google Assistant Voice Control"
+      ],
+      "save": "32",
+      "emi": "720.15",
+      "category": "Mobile",
+      "brand": "Motorola",
+      "img":"https://www.reliancedigital.in/medias/Motorola-G62-Mobile-Phone-493177198-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w4NTk1NHxpbWFnZS9qcGVnfGltYWdlcy9oMzYvaDE1Lzk4NzMyNjQ5MDIxNzQuanBnfDc5MmFmYTVlODc2MjE2NjE3NzIzZWIxNjkzNGNjY2QxZjA5MDVmMWYzODcyMGFhOGE2YTJkMjQ4MjQxMmY4N2U"
+    }
+    ,
+    {
+      "id": 23,
+      "name": "Xiaomi 11T Pro 5G 128 GB, 8 GB, Moonlight White, Mobile Phone(492574979)",
+      "price": 36999,
+      "mrp": "49999",
+      "warranty": "1",
+      "keyfeatures": [
+       " 16.94 cm (6.67 inch) 2400 x 1080 AMOLED DotDisplay",
+"8 GB Memory, 128 GB Storage",
+"120Hz Refresh Rate",
+"1000 Nits Peak Brightness",
+"480Hz Touch Sampling Rate",
+"360 Degree Ambient Light Sensor",
+"Hands-Free Dual Voice Assistant"
+      ],
+      "save": "26",
+      "emi": "1776.43",
+      "category": "Mobile",
+      "brand": "Xiaomi",
+      "img":"https://www.reliancedigital.in/medias/Xiaomi-11T-Pro-Smartphones-492574979-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyNzE2Njh8aW1hZ2UvanBlZ3xpbWFnZXMvaDU5L2hiNC85ODMyOTEwOTc5MTAyLmpwZ3xiODkxZGI4YzQ4MDY0ZGQyYmEwYmI1ZmZmODkzYzEyYTdmNjUzY2U1MjFjZTYyZTFlNDMzYzkwYjY4NzVhNzJj"
+    }
+    ,
+    {
+      "id": 24,
+      "name": "Motorola G71, 128 GB, 6 GB RAM, Iris Blue, Mobile Phone(492849088)",
+      "price": 16999,
+      "mrp": "22999",
+      "warranty": "1",
+      "keyfeatures": [
+        "16.26 cm (6.4 inch) FHD Display",
+"50+8+2 MP Rear Camera",
+"16MP Front Camera",
+"5000 mAh Battery",
+"RAM: 6 GB",
+"Internal Storage Memory 128GB"
+      ],
+      "save": "26",
+      "emi": "816.17",
+      "category": "Mobile",
+      "brand": "Motorola",
+      "img":"https://www.reliancedigital.in/medias/Motorola-G71-Mobile-Phone-492849088-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w3MTgxMHxpbWFnZS9qcGVnfGltYWdlcy9oZjAvaGM5Lzk4Mjg4NDc1ODMyNjIuanBnfDVmOWEzM2Y3MDc4YjVhYTk3NjVjNTIxMDMzOWNhZGVmYmI2OTRlN2FhMmZhNWVjMjkwNWZiYzI4Y2M1MmI0ZjM"
+    }
+    ,
+    {
+      "id": 25,
+      "name": "Apple iPhone 14 128 GB, Blue(493177752)",
+      "price": 70999,
+      "mrp": "79900",
+      "warranty": "1",
+      "keyfeatures": [
+       " 15.40 cm (6.1 inch) Super Retina XDR OLED Display",
+"12 MP Main + 12 MP Ultra Wide Lens Rear Camera",
+"12 MP Selfie Camera, iOS 16 Operating System",
+"Rated IP68 Splash, Water and Dust Resistant",
+"A15 Bionic chip, 6‑core CPU, 5‑core GPU, 16‑core Neural Engine",
+"Enabled by TrueDepth camera for facial recognition",
+"Emergency SOS, Crash Detection Safety",
+"FaceTime video calling over cellular or Wi‑Fi, FaceTime audio",
+"Activate hands‑free with only your voice using - Hey Siri",
+"Wireless charging up to 15 Watts"
+      ],
+      "save": "11",
+      "emi": "3408.87",
+      "category": "Mobile",
+      "brand": "Apple",
+      "img":"https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177752-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2OTU0M3xpbWFnZS9qcGVnfGltYWdlcy9oZTYvaDZlLzk4OTA0ODYzMjExODIuanBnfDY3ZWRlZDE0YjBhMzJmMzk3MTBjNzUxNzk1NDJlN2I4YWQwZGRiMmU1MDYzYjY3NzNmNWViMmZmOWU2NzE1YzM"
+    }
+    ,
+    {
+      "id": 26,
+      "name": "",
+      "price": 7999,
+      "mrp": "10999",
+      "warranty": "1",
+      "keyfeatures": [
+        "16.58 cm (6.53 inch) 1600 x 720 HD+ Display",
+"3 GB Memory, 32 GB Storage",
+"13 MP Rear Camera",
+"5 MP Selfie Camera",
+"2+1 Dedicated Sim Card Slots (nano SIM + nano SIM + microSD up to 512GB)",
+"Rubberized Seals and Corrosion-proof Ports"
+      ],
+      "save": "27",
+      "emi": "384.06",
+      "category": "Mobile",
+      "brand": "Redmi",
+      "img":"https://www.reliancedigital.in/medias/Redmi-10A-Smartphones-492850147-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyNzQxOTd8aW1hZ2UvanBlZ3xpbWFnZXMvaGI5L2gyMy85ODMyNDI1NzUwNTU4LmpwZ3wyZWFmNWZkNGQ1NmE5ZmE3Mzg4M2YzNjVhNWJhMDg0ZTdmYWY3MzY2ZjRmM2I1Y2I0Mzc3MTAzODU2NzQxM2I5"
+    }
+    ,
+    {
+      "id": 2211,
+      "name": "Motorola G62 5G 128 GB, 6 GB RAM, Midnight Grey, Mobile Phone(493177198)",
+      "price": 14999,
+      "mrp": "21999",
+      "warranty": "1",
+      "keyfeatures": [
+       " 16.5 cm (6.5 Inch) 2400 x 1080 Full HD+ Display",
+"50 MP + 8 MP + 2 MP Primary Camera",
+"16 MP Front Camera, 5000 mAh Battery",
+"120 Hz refresh rate, Multidimensional stereo sound",
+"Water-repellent design, 2 microphones",
+"Google Assistant Voice Control"
+      ],
+      "save": "32",
+      "emi": "720.15",
+      "category": "Mobile",
+      "brand": "Motorola",
+      "img":"https://www.reliancedigital.in/medias/Motorola-G62-Mobile-Phone-493177198-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w4NTk1NHxpbWFnZS9qcGVnfGltYWdlcy9oMzYvaDE1Lzk4NzMyNjQ5MDIxNzQuanBnfDc5MmFmYTVlODc2MjE2NjE3NzIzZWIxNjkzNGNjY2QxZjA5MDVmMWYzODcyMGFhOGE2YTJkMjQ4MjQxMmY4N2U"
+    }
+    ,
+    {
+      "id": 2311,
+      "name": "Xiaomi 11T Pro 5G 128 GB, 8 GB, Moonlight White, Mobile Phone(492574979)",
+      "price": 36999,
+      "mrp": "49999",
+      "warranty": "1",
+      "keyfeatures": [
+       " 16.94 cm (6.67 inch) 2400 x 1080 AMOLED DotDisplay",
+"8 GB Memory, 128 GB Storage",
+"120Hz Refresh Rate",
+"1000 Nits Peak Brightness",
+"480Hz Touch Sampling Rate",
+"360 Degree Ambient Light Sensor",
+"Hands-Free Dual Voice Assistant"
+      ],
+      "save": "26",
+      "emi": "1776.43",
+      "category": "Mobile",
+      "brand": "Xiaomi",
+      "img":"https://www.reliancedigital.in/medias/Xiaomi-11T-Pro-Smartphones-492574979-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyNzE2Njh8aW1hZ2UvanBlZ3xpbWFnZXMvaDU5L2hiNC85ODMyOTEwOTc5MTAyLmpwZ3xiODkxZGI4YzQ4MDY0ZGQyYmEwYmI1ZmZmODkzYzEyYTdmNjUzY2U1MjFjZTYyZTFlNDMzYzkwYjY4NzVhNzJj"
+    }
+    ,
+    {
+      "id": 2411,
+      "name": "Motorola G71, 128 GB, 6 GB RAM, Iris Blue, Mobile Phone(492849088)",
+      "price": 16999,
+      "mrp": "22999",
+      "warranty": "1",
+      "keyfeatures": [
+        "16.26 cm (6.4 inch) FHD Display",
+"50+8+2 MP Rear Camera",
+"16MP Front Camera",
+"5000 mAh Battery",
+"RAM: 6 GB",
+"Internal Storage Memory 128GB"
+      ],
+      "save": "26",
+      "emi": "816.17",
+      "category": "Mobile",
+      "brand": "Motorola",
+      "img":"https://www.reliancedigital.in/medias/Motorola-G71-Mobile-Phone-492849088-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w3MTgxMHxpbWFnZS9qcGVnfGltYWdlcy9oZjAvaGM5Lzk4Mjg4NDc1ODMyNjIuanBnfDVmOWEzM2Y3MDc4YjVhYTk3NjVjNTIxMDMzOWNhZGVmYmI2OTRlN2FhMmZhNWVjMjkwNWZiYzI4Y2M1MmI0ZjM"
+    }
+    ,
+    {
+      "id": 2511,
+      "name": "Apple iPhone 14 128 GB, Blue(493177752)",
+      "price": 70999,
+      "mrp": "79900",
+      "warranty": "1",
+      "keyfeatures": [
+       " 15.40 cm (6.1 inch) Super Retina XDR OLED Display",
+"12 MP Main + 12 MP Ultra Wide Lens Rear Camera",
+"12 MP Selfie Camera, iOS 16 Operating System",
+"Rated IP68 Splash, Water and Dust Resistant",
+"A15 Bionic chip, 6‑core CPU, 5‑core GPU, 16‑core Neural Engine",
+"Enabled by TrueDepth camera for facial recognition",
+"Emergency SOS, Crash Detection Safety",
+"FaceTime video calling over cellular or Wi‑Fi, FaceTime audio",
+"Activate hands‑free with only your voice using - Hey Siri",
+"Wireless charging up to 15 Watts"
+      ],
+      "save": "11",
+      "emi": "3408.87",
+      "category": "Mobile",
+      "brand": "Apple",
+      "img":"https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177752-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2OTU0M3xpbWFnZS9qcGVnfGltYWdlcy9oZTYvaDZlLzk4OTA0ODYzMjExODIuanBnfDY3ZWRlZDE0YjBhMzJmMzk3MTBjNzUxNzk1NDJlN2I4YWQwZGRiMmU1MDYzYjY3NzNmNWViMmZmOWU2NzE1YzM"
+    }
+    ,
+    {
+      "id": 2611,
+      "name": "",
+      "price": 7999,
+      "mrp": "10999",
+      "warranty": "1",
+      "keyfeatures": [
+        "16.58 cm (6.53 inch) 1600 x 720 HD+ Display",
+"3 GB Memory, 32 GB Storage",
+"13 MP Rear Camera",
+"5 MP Selfie Camera",
+"2+1 Dedicated Sim Card Slots (nano SIM + nano SIM + microSD up to 512GB)",
+"Rubberized Seals and Corrosion-proof Ports"
+      ],
+      "save": "27",
+      "emi": "384.06",
+      "category": "Mobile",
+      "brand": "Redmi",
+      "img":"https://www.reliancedigital.in/medias/Redmi-10A-Smartphones-492850147-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyNzQxOTd8aW1hZ2UvanBlZ3xpbWFnZXMvaGI5L2gyMy85ODMyNDI1NzUwNTU4LmpwZ3wyZWFmNWZkNGQ1NmE5ZmE3Mzg4M2YzNjVhNWJhMDg0ZTdmYWY3MzY2ZjRmM2I1Y2I0Mzc3MTAzODU2NzQxM2I5"
+    }
+    ,
+    {
+      "id": 27,
+      "name": "MI 32 HD Ready Smart LED TV, 4A Horizon, ELA4546IN(492166368)",
+      "price": 16499,
+      "mrp": "19999",
+      "warranty": "1",
+      "keyfeatures": [
+       " 80 cm (32 inch) HD Ready Display",
+"Android TV with 5000 plus Apps",
+"PatchWall Experience",
+"Bezel-less Design",
+"Mi Quick Wake Under 5 secs",
+"Captivating Horizon Display",
+"Vivid Picture Engine"
+      ],
+      "save": "18",
+      "emi": "792.16",
+      "category": "TV",
+      "brand": "MI",
+      "img":"https://www.reliancedigital.in/medias/Mi-4A-Horizon-Edition-Television-492166368-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNjk2MzB8aW1hZ2UvanBlZ3xpbWFnZXMvaDY5L2hkYS85NzkwODc0NTE3NTM0LmpwZ3wwYmMzMWVjZWU4M2FiOTljNmVmNTYzYjhlYjY1NGIyZTEwNzc0ZTI1M2Y3YTFhMTEyYmRlOGMyODYwMmUzYzU1"
+    },
+    {
+      "id": 28,
+      "name": "BPL 81.28 cm (32 inch) HD Ready Android Smart LED TV, 32H-A4301(492166140)",
+      "price": 12990,
+      "mrp": "27000",
+      "warranty": "2",
+      "keyfeatures": [
+       " Supported Apps: Netflix, Youtube, Amazon Prime,Voot",
+"Operating System: Android TV",
+"Resolution: HD (1366 x 768)",
+"Connectivity: 2 HDMI & 1 USB Ports",
+"Sound: Dolby Audio Surround Sound",
+"Refresh Rate: 60 Hz"
+      ],
+      "save": "52",
+      "emi": "623.69",
+      "category": "TV",
+      "brand": "BPL",
+      "img":"https://www.reliancedigital.in/medias/BPL-32-HD-Television-492166140-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyMTQ2NDB8aW1hZ2UvanBlZ3xpbWFnZXMvaDkzL2hlMC85NzMwMjcxOTM2NTQyLmpwZ3wyOTcyMjc4ZWZlNjkwYjhmMjhlMTc2YjJiNWZiYzFjNDM5NjIyODRiZmE4NjFhNDQwOTQyZjI2MTc4NGYwMWIx"
+    },
+    {
+      "id": 29,
+      "name": "ONEPLUS 108 cm (43 inch) Full HD Smart LED TV, 43Y1(491895011)",
+      "price": 22999,
+      "mrp": "29999",
+      "warranty": "1",
+      "keyfeatures": [
+        "additional 1 year Warranty on panel provided by the manufacturer",
+"Supported Apps: YouTube, Netflix, Prime Video, Hotstar",
+"Operating System: Android TV (Google Assistant)",
+"Resolution: Full HD (1920 x 1080)",
+"Connectivity: 2 HDMI ports, 2 USB ports",
+"Sound: 20 Watts, Dolby Audio",
+"Refresh Rate: 60 Hz"
+      ],
+      "save": "23",
+      "emi": "1104.25",
+      "category": "TV",
+      "brand": "Oneplus",
+      "img":"https://www.reliancedigital.in/medias/ONEPLUS-43Y1-TV-491895011-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxODYzOTV8aW1hZ2UvanBlZ3xpbWFnZXMvaGFlL2gzOC85ODEwMDU4Mzc5Mjk0LmpwZ3wwYWE2Y2UzOTE3MzU3ODI0ZjJmZjhkZGVmZTVkNzc3ODlmNzIwMjQ3N2U0ZWViMzFmOGYxMmYxZWNiZGM2NGUx"
+    },
+    {
+      "id": 30,
+      "name": "TCL 139.7 cm (55 inch) 3Yrs Warranty QLED Ultra HD (4K) Smart TV, C725 55C725(493179298)",
+      "price": 40990,
+      "mrp": "116990",
+      "warranty": "3",
+      "keyfeatures": [
+      "  Supported Apps: Netflix, You Tube, Hot star, Zee5, Voot",
+"Operating System: Android TV(Google Assistant)",
+"Resolution: Ultra HD 3840 x 2160",
+"Connectivity: 3 HDMI Ports, 2 USB Ports",
+"Sound: 12 Watts, Dolby Atmos, Dolby Vision",
+"Refresh Rate: 60 Hz"
+      ],
+      "save": "65",
+      "emi": "1968.05",
+      "category": "TV",
+      "brand": "TCL",
+      "img":"https://www.reliancedigital.in/medias/TCL-55C725-LED-TV-493179298-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNzA4MDAxfGltYWdlL2pwZWd8aW1hZ2VzL2hkNC9oYzQvOTkwNzc2NzE4MTM0Mi5qcGd8ZTY4OGRkZmM2NzNmZjU5M2I2MTEyYjAxMWE5NmNiMzcwOTdlZTc5ZTI5MDYwMjZlYTFlMjMxYzNlNzFmZjg2NQ"
+    },
+    {
+      "id": 31,
+      "name": "Samsung Wondertainment 80 cm (32 Inch) Smart HD Ready TV, UA32T4340BKXXL(492403650)",
+      "price": 12990,
+      "mrp": "22900",
+      "warranty": "1",
+      "keyfeatures": [
+        "1 Year Comprehensive Warranty on Product and 1 Year Additional warranty on Panel",
+"Supported Apps: Prime Video, Hotstar, Netflix, Zee5 and many more, PC Mode, Universal Guide, Web Browser, Screen Mirroring",
+"Operating System: Tizen",
+"Resolution: 1366 x 768 (HD)",
+"Connectivity: 2 HDMI & 2 USB Ports",
+"Sound Output (RMS): 20 Watt",
+"Refresh Rate: 60 Hz",
+"Get additional 1 year comprehensive warranty (valid till 30th Nov 2022)"
+      ],
+      "save": "43",
+      "emi": "623.69",
+      "category": "TV",
+      "brand": "Samsung",
+      "img":"https://www.reliancedigital.in/medias/Samsung-UA32T4340BKXXL-Smart-Television-492403650-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxOTMxMDl8aW1hZ2UvanBlZ3xpbWFnZXMvaDIyL2hmMy85ODQyMjA0OTM0MTc0LmpwZ3w4MTM3ZTc5YjY1NzhiNTYyZDFiMmNhMDI3OWU3NzQxZWUzMmVmYWI5NmFiMDUxMmY2ZjAzNWQyZjBmZDI3YTkx"
+    }
+    ,
+    {
+      "id": 2711,
+      "name": "MI 32 HD Ready Smart LED TV, 4A Horizon, ELA4546IN(492166368)",
+      "price": 16499,
+      "mrp": "19999",
+      "warranty": "1",
+      "keyfeatures": [
+       " 80 cm (32 inch) HD Ready Display",
+"Android TV with 5000 plus Apps",
+"PatchWall Experience",
+"Bezel-less Design",
+"Mi Quick Wake Under 5 secs",
+"Captivating Horizon Display",
+"Vivid Picture Engine"
+      ],
+      "save": "18",
+      "emi": "792.16",
+      "category": "TV",
+      "brand": "MI",
+      "img":"https://www.reliancedigital.in/medias/Mi-4A-Horizon-Edition-Television-492166368-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNjk2MzB8aW1hZ2UvanBlZ3xpbWFnZXMvaDY5L2hkYS85NzkwODc0NTE3NTM0LmpwZ3wwYmMzMWVjZWU4M2FiOTljNmVmNTYzYjhlYjY1NGIyZTEwNzc0ZTI1M2Y3YTFhMTEyYmRlOGMyODYwMmUzYzU1"
+    },
+    {
+      "id": 2811,
+      "name": "BPL 81.28 cm (32 inch) HD Ready Android Smart LED TV, 32H-A4301(492166140)",
+      "price": 12990,
+      "mrp": "27000",
+      "warranty": "2",
+      "keyfeatures": [
+       " Supported Apps: Netflix, Youtube, Amazon Prime,Voot",
+"Operating System: Android TV",
+"Resolution: HD (1366 x 768)",
+"Connectivity: 2 HDMI & 1 USB Ports",
+"Sound: Dolby Audio Surround Sound",
+"Refresh Rate: 60 Hz"
+      ],
+      "save": "52",
+      "emi": "623.69",
+      "category": "TV",
+      "brand": "BPL",
+      "img":"https://www.reliancedigital.in/medias/BPL-32-HD-Television-492166140-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyMTQ2NDB8aW1hZ2UvanBlZ3xpbWFnZXMvaDkzL2hlMC85NzMwMjcxOTM2NTQyLmpwZ3wyOTcyMjc4ZWZlNjkwYjhmMjhlMTc2YjJiNWZiYzFjNDM5NjIyODRiZmE4NjFhNDQwOTQyZjI2MTc4NGYwMWIx"
+    },
+    {
+      "id": 2911,
+      "name": "ONEPLUS 108 cm (43 inch) Full HD Smart LED TV, 43Y1(491895011)",
+      "price": 22999,
+      "mrp": "29999",
+      "warranty": "1",
+      "keyfeatures": [
+        "additional 1 year Warranty on panel provided by the manufacturer",
+"Supported Apps: YouTube, Netflix, Prime Video, Hotstar",
+"Operating System: Android TV (Google Assistant)",
+"Resolution: Full HD (1920 x 1080)",
+"Connectivity: 2 HDMI ports, 2 USB ports",
+"Sound: 20 Watts, Dolby Audio",
+"Refresh Rate: 60 Hz"
+      ],
+      "save": "23",
+      "emi": "1104.25",
+      "category": "TV",
+      "brand": "Oneplus",
+      "img":"https://www.reliancedigital.in/medias/ONEPLUS-43Y1-TV-491895011-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxODYzOTV8aW1hZ2UvanBlZ3xpbWFnZXMvaGFlL2gzOC85ODEwMDU4Mzc5Mjk0LmpwZ3wwYWE2Y2UzOTE3MzU3ODI0ZjJmZjhkZGVmZTVkNzc3ODlmNzIwMjQ3N2U0ZWViMzFmOGYxMmYxZWNiZGM2NGUx"
+    },
+    {
+      "id": 3011,
+      "name": "TCL 139.7 cm (55 inch) 3Yrs Warranty QLED Ultra HD (4K) Smart TV, C725 55C725(493179298)",
+      "price": 40990,
+      "mrp": "116990",
+      "warranty": "3",
+      "keyfeatures": [
+      "  Supported Apps: Netflix, You Tube, Hot star, Zee5, Voot",
+"Operating System: Android TV(Google Assistant)",
+"Resolution: Ultra HD 3840 x 2160",
+"Connectivity: 3 HDMI Ports, 2 USB Ports",
+"Sound: 12 Watts, Dolby Atmos, Dolby Vision",
+"Refresh Rate: 60 Hz"
+      ],
+      "save": "65",
+      "emi": "1968.05",
+      "category": "TV",
+      "brand": "TCL",
+      "img":"https://www.reliancedigital.in/medias/TCL-55C725-LED-TV-493179298-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNzA4MDAxfGltYWdlL2pwZWd8aW1hZ2VzL2hkNC9oYzQvOTkwNzc2NzE4MTM0Mi5qcGd8ZTY4OGRkZmM2NzNmZjU5M2I2MTEyYjAxMWE5NmNiMzcwOTdlZTc5ZTI5MDYwMjZlYTFlMjMxYzNlNzFmZjg2NQ"
+    },
+    {
+      "id": 3111,
+      "name": "Samsung Wondertainment 80 cm (32 Inch) Smart HD Ready TV, UA32T4340BKXXL(492403650)",
+      "price": 12990,
+      "mrp": "22900",
+      "warranty": "1",
+      "keyfeatures": [
+        "1 Year Comprehensive Warranty on Product and 1 Year Additional warranty on Panel",
+"Supported Apps: Prime Video, Hotstar, Netflix, Zee5 and many more, PC Mode, Universal Guide, Web Browser, Screen Mirroring",
+"Operating System: Tizen",
+"Resolution: 1366 x 768 (HD)",
+"Connectivity: 2 HDMI & 2 USB Ports",
+"Sound Output (RMS): 20 Watt",
+"Refresh Rate: 60 Hz",
+"Get additional 1 year comprehensive warranty (valid till 30th Nov 2022)"
+      ],
+      "save": "43",
+      "emi": "623.69",
+      "category": "TV",
+      "brand": "Samsung",
+      "img":"https://www.reliancedigital.in/medias/Samsung-UA32T4340BKXXL-Smart-Television-492403650-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxOTMxMDl8aW1hZ2UvanBlZ3xpbWFnZXMvaDIyL2hmMy85ODQyMjA0OTM0MTc0LmpwZ3w4MTM3ZTc5YjY1NzhiNTYyZDFiMmNhMDI3OWU3NzQxZWUzMmVmYWI5NmFiMDUxMmY2ZjAzNWQyZjBmZDI3YTkx"
+    }
+    ,
+    {
+      "id": 33,
+      "name": "boAt Airdopes 148 Bluetooth Truly Wireless in Ear Earbuds with mic, 42H Playtime, Beast Mode(Low Latency Upto 80ms) for Gaming, ENx Tech, ASAP Charge, IWP, IPX4 Water Resistance (Active Black)(492579512)",
+      "price": 1299,
+      "mrp": "4490",
+      "warranty": "1",
+      "keyfeatures": [
+       " Immersive Audio",
+"ASAP Charge Technology",
+"IPX4 Sweat Resistant",
+"Enx Technology",
+"Beast Mode for Low Latency"
+      ],
+      "save": "71",
+      "emi": "443.14",
+      "category": "Audio",
+      "brand": "Boat",
+      "img":"https://www.reliancedigital.in/medias/boAt-Airdopes148-TrueWireless-492579512-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNDY3NzV8aW1hZ2UvanBlZ3xpbWFnZXMvaGE0L2g2Mi85ODE2NDAxMzEzODIyLmpwZ3w4MTM4ZGI2MWNmOGFlNTUxMjg1ODMzY2FmY2UxZjczNWY1OTBmZjE2ZDQyMzNkNTI4ZWIxYTlkZjA5ZGY4ODAz"
+    }
+    ,
+    {
+      "id": 34,
+      "name": "OnePlus Bullets Z2 Wireless Neckband Earphone with AI Noise Cancellation, Magico Black(492796790)",
+      "price": 1699,
+      "mrp": "2290",
+      "warranty": "1",
+      "keyfeatures": ["12.4 mm Dynamic Drivers for Deep Bass"],
+      "save": "26",
+      "emi": "82.37",
+      "category": "Audio",
+      "brand": "Oneplus",
+      "img":"https://www.reliancedigital.in/medias/OnePlus-Bullets-Z2-Wireless-Earphone-492796790-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzOTQ4MnxpbWFnZS9qcGVnfGltYWdlcy9oOGUvaDY0Lzk4MzgxNzk4NDQxMjYuanBnfDcxMDRhMjJmMzYzMjlkODg3NzhjZDFlZDExYTJhNDVhMTA0OTNjYmE1MjA3NTU4ZWE5ZDk2MzY3YjY4YjIyNWU"
+    },
+    {
+      "id": 35,
+      "name": "boAt Stone Grenade 5W Portable Wireless Speaker With Multiple Connectivity Modes, Up to 7H Playback, IPX6 Water and Splash Resistance and Rugged Shock Resistant Design, Black(491893336)",
+      "price": 899,
+      "mrp": "3990",
+      "warranty": "1",
+      "keyfeatures": [
+    "    Optimum Bluetooth experience V4.2 – Activate your day with good vibes made easy with Bluetooth V4.2, Exercise your right to good music with the highest of authority ; Bluetooth Version: 4.2V ; Wireless range: 10M ; Power Output (RMS): 5W ; Frequency Response: 70 HZ-18KHZ ; Impedance: 4 Ohms ; Charging Time: 2 hrs",
+"HD explosive sound – Blast your surroundings to bits with the boAt Stone Grenade RTL, Set into the sound and prime your senses for Nirvana. Set with a 1.75” full-range 5W driver, get ready to experience the sound",
+"Sharp fabric coated IPX 6 finish – A compact build finished with rounded edges and even a strap made for easy carrying, IPX 6 water resistant as well as shockproof, this Grenade won’t explode until you need it to",
+"Aligned easy access control – Experience audio Nirvana the right way with the integrated controls system making all your moves fluid, pause, play, change, and take a call with ease",
+"Up to 7 hours of Detonation – Plug Into good times for up with the rechargeable 1200mAh lithium battery giving you all the audio time you need, sync into the sound, sink into comfort",
+"AUX/SD card compatible – Switch to battery saving mode via multiple modes of device to speaker connectivity, pick whichever door you like to access entry to Nirvana"
+      ],
+      "save": "77",
+      "emi": "",
+      "category": "Audio",
+      "brand": "Boat",
+      "img":"https://www.reliancedigital.in/medias/boAt-Stone-Grenade-Speaker-491893336-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1MzI1MDl8aW1hZ2UvcG5nfGltYWdlcy9oMWYvaDI0Lzk3NzUyNzYwNjQ3OTgucG5nfDE1M2UxZjljY2Y2MDFmYWM4NGU1ZTUzNTdmMTQxOGIzNjExNzllY2MzODEzODBlNDMzOGMyYWE1OTMzYjFhMDg"
+    },
+    {
+      "id": 36,
+      "name": "Reconnect Dank Neckband with IPx4, water resistance, 16Hrs Battery, Bluetooth v5.0, Multi point connection (Black) with 1 year warranty(492796670)",
+      "price": 499,
+      "mrp": "1499",
+      "warranty": "1",
+      "keyfeatures": [
+        "Alexa and Google assistant enabled",
+"IPX4 Water resistant, Magnetic Earbuds",
+"Up to 16 Hours of playback time",
+"Swift charging, Multi connect Function",
+"Bluetooth v5.0 Connectivity"
+      ],
+      "save": "67",
+      "emi": "",
+      "category": "Audio",
+      "brand": "Reconnect",
+      "img":"https://www.reliancedigital.in/medias/Reconnect-BE01802-Headphone-Earphone-492796670-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MTc5OHxpbWFnZS9qcGVnfGltYWdlcy9oYTIvaDg1Lzk4OTU5Mjk5NzA3MTguanBnfDcwMzYwOTlkZGFhNmQ0NGE3ODk3NDRjYzA0NjY3ZTAzMDQwNzNmNmQ1MmRjYTgxNDQ2ZjMzYWZkYTdhOWNhNzI"
+    },
+    {
+      "id": 37,
+      "name": "Apple EarPods with Lightning Connector(491277319)",
+      "price": 1699,
+      "mrp": "2000",
+      "warranty": "1",
+      "keyfeatures": [
+      "  Built-in Remote & Mic - Control Music & Answer or End Calls",
+"Protection from Sweat & Water"
+      ],
+      "save": "15",
+      "emi": "82.37",
+      "category": "Audio",
+      "brand": "Apple",
+      "img":"https://www.reliancedigital.in/medias/Apple-Wired-EarPods-with-Lightning-Connector-White-491277319-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzMDUzNXxpbWFnZS9qcGVnfGltYWdlcy9oMGIvaDJlLzg5MzI3MTk1MjU5MTguanBnfDY2MmNkZmE3YjY4MjI1YmJhZTY2MzBhZWUxYjBlZGFhOTcwNzA1NmYzNzNmMzAyNzAzMzRiNGMyOTQ2ODYyZjY"
+    },
+    {
+      "id": 3311,
+      "name": "boAt Airdopes 148 Bluetooth Truly Wireless in Ear Earbuds with mic, 42H Playtime, Beast Mode(Low Latency Upto 80ms) for Gaming, ENx Tech, ASAP Charge, IWP, IPX4 Water Resistance (Active Black)(492579512)",
+      "price": 1299,
+      "mrp": "4490",
+      "warranty": "1",
+      "keyfeatures": [
+       " Immersive Audio",
+"ASAP Charge Technology",
+"IPX4 Sweat Resistant",
+"Enx Technology",
+"Beast Mode for Low Latency"
+      ],
+      "save": "71",
+      "emi": "443.14",
+      "category": "Audio",
+      "brand": "Boat",
+      "img":"https://www.reliancedigital.in/medias/boAt-Airdopes148-TrueWireless-492579512-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNDY3NzV8aW1hZ2UvanBlZ3xpbWFnZXMvaGE0L2g2Mi85ODE2NDAxMzEzODIyLmpwZ3w4MTM4ZGI2MWNmOGFlNTUxMjg1ODMzY2FmY2UxZjczNWY1OTBmZjE2ZDQyMzNkNTI4ZWIxYTlkZjA5ZGY4ODAz"
+    }
+    ,
+    {
+      "id": 3411,
+      "name": "OnePlus Bullets Z2 Wireless Neckband Earphone with AI Noise Cancellation, Magico Black(492796790)",
+      "price": 1699,
+      "mrp": "2290",
+      "warranty": "1",
+      "keyfeatures": ["12.4 mm Dynamic Drivers for Deep Bass"],
+      "save": "26",
+      "emi": "82.37",
+      "category": "Audio",
+      "brand": "Oneplus",
+      "img":"https://www.reliancedigital.in/medias/OnePlus-Bullets-Z2-Wireless-Earphone-492796790-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzOTQ4MnxpbWFnZS9qcGVnfGltYWdlcy9oOGUvaDY0Lzk4MzgxNzk4NDQxMjYuanBnfDcxMDRhMjJmMzYzMjlkODg3NzhjZDFlZDExYTJhNDVhMTA0OTNjYmE1MjA3NTU4ZWE5ZDk2MzY3YjY4YjIyNWU"
+    },
+    {
+      "id": 3511,
+      "name": "boAt Stone Grenade 5W Portable Wireless Speaker With Multiple Connectivity Modes, Up to 7H Playback, IPX6 Water and Splash Resistance and Rugged Shock Resistant Design, Black(491893336)",
+      "price": 899,
+      "mrp": "3990",
+      "warranty": "1",
+      "keyfeatures": [
+    "    Optimum Bluetooth experience V4.2 – Activate your day with good vibes made easy with Bluetooth V4.2, Exercise your right to good music with the highest of authority ; Bluetooth Version: 4.2V ; Wireless range: 10M ; Power Output (RMS): 5W ; Frequency Response: 70 HZ-18KHZ ; Impedance: 4 Ohms ; Charging Time: 2 hrs",
+"HD explosive sound – Blast your surroundings to bits with the boAt Stone Grenade RTL, Set into the sound and prime your senses for Nirvana. Set with a 1.75” full-range 5W driver, get ready to experience the sound",
+"Sharp fabric coated IPX 6 finish – A compact build finished with rounded edges and even a strap made for easy carrying, IPX 6 water resistant as well as shockproof, this Grenade won’t explode until you need it to",
+"Aligned easy access control – Experience audio Nirvana the right way with the integrated controls system making all your moves fluid, pause, play, change, and take a call with ease",
+"Up to 7 hours of Detonation – Plug Into good times for up with the rechargeable 1200mAh lithium battery giving you all the audio time you need, sync into the sound, sink into comfort",
+"AUX/SD card compatible – Switch to battery saving mode via multiple modes of device to speaker connectivity, pick whichever door you like to access entry to Nirvana"
+      ],
+      "save": "77",
+      "emi": "",
+      "category": "Audio",
+      "brand": "Boat",
+      "img":"https://www.reliancedigital.in/medias/boAt-Stone-Grenade-Speaker-491893336-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1MzI1MDl8aW1hZ2UvcG5nfGltYWdlcy9oMWYvaDI0Lzk3NzUyNzYwNjQ3OTgucG5nfDE1M2UxZjljY2Y2MDFmYWM4NGU1ZTUzNTdmMTQxOGIzNjExNzllY2MzODEzODBlNDMzOGMyYWE1OTMzYjFhMDg"
+    },
+    {
+      "id": 3611,
+      "name": "Reconnect Dank Neckband with IPx4, water resistance, 16Hrs Battery, Bluetooth v5.0, Multi point connection (Black) with 1 year warranty(492796670)",
+      "price": 499,
+      "mrp": "1499",
+      "warranty": "1",
+      "keyfeatures": [
+        "Alexa and Google assistant enabled",
+"IPX4 Water resistant, Magnetic Earbuds",
+"Up to 16 Hours of playback time",
+"Swift charging, Multi connect Function",
+"Bluetooth v5.0 Connectivity"
+      ],
+      "save": "67",
+      "emi": "",
+      "category": "Audio",
+      "brand": "Reconnect",
+      "img":"https://www.reliancedigital.in/medias/Reconnect-BE01802-Headphone-Earphone-492796670-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MTc5OHxpbWFnZS9qcGVnfGltYWdlcy9oYTIvaDg1Lzk4OTU5Mjk5NzA3MTguanBnfDcwMzYwOTlkZGFhNmQ0NGE3ODk3NDRjYzA0NjY3ZTAzMDQwNzNmNmQ1MmRjYTgxNDQ2ZjMzYWZkYTdhOWNhNzI"
+    },
+    {
+      "id": 3711,
+      "name": "Apple EarPods with Lightning Connector(491277319)",
+      "price": 1699,
+      "mrp": "2000",
+      "warranty": "1",
+      "keyfeatures": [
+      "  Built-in Remote & Mic - Control Music & Answer or End Calls",
+"Protection from Sweat & Water"
+      ],
+      "save": "15",
+      "emi": "82.37",
+      "category": "Audio",
+      "brand": "Apple",
+      "img":"https://www.reliancedigital.in/medias/Apple-Wired-EarPods-with-Lightning-Connector-White-491277319-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzMDUzNXxpbWFnZS9qcGVnfGltYWdlcy9oMGIvaDJlLzg5MzI3MTk1MjU5MTguanBnfDY2MmNkZmE3YjY4MjI1YmJhZTY2MzBhZWUxYjBlZGFhOTcwNzA1NmYzNzNmMzAyNzAzMzRiNGMyOTQ2ODYyZjY"
+    }
+
+  ]
+}
+
+
+
