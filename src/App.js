@@ -8,7 +8,7 @@ import { Box } from '@chakra-ui/react';
 function App() {
   return (
     <>
-  
+  {/* https://creepy-llama.cyclic.app/products */}
      <Navbar/>
    <Box h={{base: "69px", md: "120px"}} bg={"#e4252a"} >
 

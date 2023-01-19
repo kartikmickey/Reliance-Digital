@@ -31,7 +31,7 @@ import {
    
     return (
       
-      <Box position={"fixed"} w={"100%"}  bg={"#e4252a"} >
+      <Box zIndex={3} position={"fixed"} w={"100%"}  bg={"#e4252a"} >
         <Flex
         // position={"fixed"}
           // bg={"#003380"}
