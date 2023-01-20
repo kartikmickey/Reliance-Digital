@@ -19,19 +19,7 @@ import {
   import { FiShoppingCart } from 'react-icons/fi';
 import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
 
-// const data = {
-//     isNew: true,
-//     imageURL:
-//       'https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=4600&q=80',
-//     name: 'Wayfarer Classic',
-//     price: 4.5,
-//     rating: 4.2,
-//     numReviews: 34,
-//   };
- 
 
-  
-//   https://creepy-llama.cyclic.app/products?_page=1&_limit=5&category=HomeAppliances
   
   function Rating({ rating, numReviews }) {
     return (
@@ -54,9 +42,7 @@ import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
             }
             return <BsStar key={i} style={{ marginLeft: '1' }} />;
           })}
-        {/* <Box as="span" ml="2" color="gray.600" fontSize="sm">
-          {numReviews} review{numReviews > 1 && 's'}
-        </Box> */}
+        
       </Flex>
     );
   }
@@ -66,15 +52,13 @@ import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
     warranty }
   ) {
     name = name.substring(0, 32)
-    // console.log(name,brand,category, emi,id, img, keyfeatures,mrp, price, save,
-    //     warranty )
+    
         const navigate = useNavigate();
         let Mrp= +mrp
   
     return (
        
       <Flex 
-    //   p={50}
        w="full" alignItems="center" justifyContent="center">
         <Box
         onClick={()=>navigate(`/products/${id}`)}
@@ -157,17 +141,17 @@ import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
     );
   }
 
-const Div3 = () => {
+const Div4 = () => {
     const [data, setData]= useState([]);
     const [total , setTotal] = useState(1);
     const [page, setPage] = useState(1)
 
 
      useEffect(()=>{
-        axios(`https://creepy-llama.cyclic.app/products?_page=${page}&_limit=4&category=HomeAppliances`)
+        axios(`https://creepy-llama.cyclic.app/products?_page=${page}&_limit=3&category=Laptop`)
         .then((res)=>{
             setData(res.data)
-            setTotal(Math.ceil(+res.headers['x-total-count']/4))
+            setTotal(Math.ceil(+res.headers['x-total-count']/3))
         })
      },[page])
 
@@ -180,14 +164,13 @@ const Div3 = () => {
     //  console.log(data)
 
 
-    const top = useBreakpointValue({ base: '90%', md: '28%' });
+    const top = useBreakpointValue({ base: '90%', md: '44%' });
     const side = useBreakpointValue({ base: '30%', md: '10px' });
   return (
     <div style={{height: "auto",
     marginTop: "7px",
-    // width: "100%",
     backgroundColor: "white", padding: "30px" }} >
-        <p style={{color: "#333333",fontSize:"20px", lineHeight: "14px", fontWeight:"400" }} >Home Appliances Fest
+        <p style={{color: "#333333",fontSize:"20px", lineHeight: "14px", fontWeight:"400" }} >Trending Laptops
  
        <button style={{ backgroundColor: "#003380",fontSize: "12px", padding: "5px", color: "white" , marginLeft: "5px" }} >
            View all 
@@ -195,13 +178,8 @@ const Div3 = () => {
       
         </p>
         <div style={{display: "grid" , gridTemplateColumns :"repeat(4, 1fr )" , gap: "20px" , margin: "25px" } }  >
-{/* <ProductAddToCart/>
-<ProductAddToCart/>
-<ProductAddToCart/>
-<ProductAddToCart/>
-<ProductAddToCart/> */}
+            <img style={{margin: "auto"}} src='https://www.reliancedigital.in/medias/Trending-Laptops-Producst-Carousel-02-01-2022.jpg?context=bWFzdGVyfGltYWdlc3w5MjUxN3xpbWFnZS9qcGVnfGltYWdlcy9oMjEvaGVhLzk5MzkyMDU0ODg2NzAuanBnfGU5ZWJhMjc5M2M2NDg2ZGY4NWVjYTZjYjhjMzE0MjM4ZmU5YTZjY2M3OWI1YjYyZmY4ZDlmMDlmMGZhYmMwMTE' />
 {data?.map((e)=>
-    // console.log(e.name);
     <ProductAddToCart key={e.id} name={e.name} brand={e.brand} category={e.category} emi={e.emi} id={e.id} img={e.img} keyfeatures={e.keyfeatures} mrp={e.mrp} price={e.price} save={e.save}
 warranty={e.warranty} 
     />
@@ -225,25 +203,22 @@ warranty={e.warranty}
         >
         <BiLeftArrowAlt />
       </IconButton>
-      {/* Right Icon */}
+    
       <IconButton
         aria-label="right-arrow"
         variant='outline'
         colorScheme="red"
-        // bg={"transparent"}
+      
         backgroundColor= "#EEEEEE"
         _hover={{
             backgroundColor: "white",
         }}
         position="absolute"
-        right=
-        {side}
-        top=
-        // {"20px"}
-        {top}
+        right={side}
+        top={top}
         transform={'translate(0%, -50%)'}
         zIndex={2}
-        // disabled={page==total}
+       
         onClick={() => setPage(page+1)}
         >
         <BiRightArrowAlt />
@@ -252,4 +227,4 @@ warranty={e.warranty}
   )
 }
 
-export default Div3
+export default Div4
