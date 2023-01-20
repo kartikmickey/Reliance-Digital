@@ -2,6 +2,9 @@ import React from 'react'
 import Div1 from './HomeComponents/div1'
 import Div2 from './HomeComponents/div2'
 import Div3 from './HomeComponents/div3'
+import Div4 from './HomeComponents/div4'
+import Div5 from './HomeComponents/div5'
+import Div6 from './HomeComponents/div6'
 
 const Home = () => {
   return (
@@ -14,6 +17,10 @@ const Home = () => {
     <Div1/>
     <Div2/>
     <Div3/>
+    {/* <br/> */}
+    <Div4/>
+    <Div5/>
+    <Div6/>
     </div>
   )
 }
