@@ -180,7 +180,7 @@ const Div3 = () => {
     //  console.log(data)
 
 
-    const top = useBreakpointValue({ base: '90%', md: '28%' });
+    const top = useBreakpointValue({ base: '90%', md: '15.5%' });
     const side = useBreakpointValue({ base: '30%', md: '10px' });
   return (
     <div style={{height: "auto",

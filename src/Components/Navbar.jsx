@@ -23,11 +23,12 @@ import {
     ChevronDownIcon,
     ChevronRightIcon,
   } from '@chakra-ui/icons';
+  import { useNavigate } from "react-router-dom";
   import { FaShoppingCart } from 'react-icons/fa';
   
   export default function Navbar() {
     const { isOpen, onToggle } = useDisclosure();
-    
+    const navigate = useNavigate();
    
     return (
       
@@ -72,7 +73,7 @@ import {
               fontFamily={'heading'}
               ml={10}
               color={useColorModeValue('gray.800', 'white')}>
-               <Image src="https://www.reliancedigital.in/build/client/images/loaders/rd_logo.svg" />
+               <Image onClick={()=>navigate("/")} src="https://www.reliancedigital.in/build/client/images/loaders/rd_logo.svg" />
                <Input
                display={{base: "none", md: "flex"}}
                border="none"

@@ -105,7 +105,7 @@ import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
                   }}
                 lineHeight="tight"
                 isTruncated>
-                {name}
+                {name  }
               </Box>
               <Tooltip
                 label="Add to cart"
@@ -141,14 +141,14 @@ import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
     );
   }
 
-const Div4 = () => {
+const Div10 = () => {
     const [data, setData]= useState([]);
     const [total , setTotal] = useState(1);
     const [page, setPage] = useState(1)
 
 
      useEffect(()=>{
-        axios(`https://creepy-llama.cyclic.app/products?_page=${page}&_limit=3&category=Laptop`)
+        axios(`https://creepy-llama.cyclic.app/products?_page=${page}&_limit=3&category=TV`)
         .then((res)=>{
             setData(res.data)
             setTotal(Math.ceil(+res.headers['x-total-count']/3))
@@ -164,13 +164,13 @@ const Div4 = () => {
     //  console.log(data)
 
 
-    const top = useBreakpointValue({ base: '90%', md: '24.5%' });
+    const top = useBreakpointValue({ base: '90%', md: '71%' });
     const side = useBreakpointValue({ base: '30%', md: '10px' });
   return (
     <div style={{height: "auto",
     marginTop: "7px",
     backgroundColor: "white", padding: "30px" }} >
-        <p style={{color: "#333333",fontSize:"20px", lineHeight: "14px", fontWeight:"400" }} >Trending Laptops
+        <p style={{color: "#333333",fontSize:"20px", lineHeight: "14px", fontWeight:"400" }} >Trending in Televisions
  
        <button style={{ backgroundColor: "#003380",fontSize: "12px", padding: "5px", color: "white" , marginLeft: "5px" }} >
            View all 
@@ -178,12 +178,12 @@ const Div4 = () => {
       
         </p>
         <div style={{display: "grid" , gridTemplateColumns :"repeat(4, 1fr )" , gap: "20px" , margin: "25px" } }  >
-            <img style={{margin: "auto"}} src='https://www.reliancedigital.in/medias/Trending-Laptops-Producst-Carousel-02-01-2022.jpg?context=bWFzdGVyfGltYWdlc3w5MjUxN3xpbWFnZS9qcGVnfGltYWdlcy9oMjEvaGVhLzk5MzkyMDU0ODg2NzAuanBnfGU5ZWJhMjc5M2M2NDg2ZGY4NWVjYTZjYjhjMzE0MjM4ZmU5YTZjY2M3OWI1YjYyZmY4ZDlmMDlmMGZhYmMwMTE' />
 {data?.map((e)=>
     <ProductAddToCart key={e.id} name={e.name} brand={e.brand} category={e.category} emi={e.emi} id={e.id} img={e.img} keyfeatures={e.keyfeatures} mrp={e.mrp} price={e.price} save={e.save}
-warranty={e.warranty} 
+    warranty={e.warranty} 
     />
-)}
+    )}
+    <img style={{margin: "auto"}} src='https://www.reliancedigital.in/medias/Trending-in-TVs-Producst-Carousel-02-01-2022.jpg?context=bWFzdGVyfGltYWdlc3w5NDYyOHxpbWFnZS9qcGVnfGltYWdlcy9oNTYvaDBhLzk5MzkyMDU0MjMxMzQuanBnfGRmODcwYWI0YjUzMjA0NDBhNmQzMjNlZWE3ZGZlYzYzMThlMDBiNWI0ZWE3MzMxYzRjYmYyNGQ1OGU4NjgyNjg' />
         </div>
          <IconButton
         aria-label="left-arrow"
@@ -227,4 +227,4 @@ warranty={e.warranty}
   )
 }
 
-export default Div4
+export default Div10
