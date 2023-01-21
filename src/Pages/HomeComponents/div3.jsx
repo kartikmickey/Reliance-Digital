@@ -195,11 +195,7 @@ const Div3 = () => {
       
         </p>
         <div style={{display: "grid" , gridTemplateColumns :"repeat(4, 1fr )" , gap: "20px" , margin: "25px" } }  >
-{/* <ProductAddToCart/>
-<ProductAddToCart/>
-<ProductAddToCart/>
-<ProductAddToCart/>
-<ProductAddToCart/> */}
+
 {data?.map((e)=>
     // console.log(e.name);
     <ProductAddToCart key={e.id} name={e.name} brand={e.brand} category={e.category} emi={e.emi} id={e.id} img={e.img} keyfeatures={e.keyfeatures} mrp={e.mrp} price={e.price} save={e.save}
