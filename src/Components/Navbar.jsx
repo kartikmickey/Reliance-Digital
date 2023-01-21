@@ -630,5 +630,9 @@ import {
           href: '#',
         }
       ],
+    },
+    {
+      label: "ALL PRODUCTS",
+      href: '/products',
     }
   ]
