@@ -25,10 +25,15 @@ import {
   } from '@chakra-ui/icons';
   import { useNavigate } from "react-router-dom";
   import { FaShoppingCart } from 'react-icons/fa';
+import { useContext } from 'react';
+import { Context } from './Context';
   
   export default function Navbar() {
     const { isOpen, onToggle } = useDisclosure();
     const navigate = useNavigate();
+
+    const { setSearch , search } = useContext(Context)
+    // console.log(search)
    
     return (
       
@@ -82,6 +87,8 @@ import {
                bg={"white"}
                ml="260px"
                width="520px"
+               value={search}
+               onChange={(e)=>setSearch(e.target.value)}
           //  variant='unstyled'
             placeholder='Find Your Favourite Products' />
             </Flex>
@@ -114,7 +121,7 @@ import {
               color: "#003380"
             }}
             color={"white"}
-            href={'#'}>
+            href={`/cart/:id`}>
               
                 <FaShoppingCart  />
 
@@ -126,6 +133,7 @@ import {
               fontSize={'sm'}
               fontWeight={600}
               color={'white'}
+              onClick={()=>navigate("/login")}
               bg={"#003380"}
               href={'#'}
               _hover={{
@@ -305,6 +313,7 @@ import {
   const NAV_ITEMS=[
     {
       label: 'MOBILES & TABLETS',
+      href: "/mobile",
       children: [
         {
           label: 'Smartphones',
@@ -350,6 +359,7 @@ import {
     },
     {
       label: 'TELEVISONS',
+      href: "/televisions",
       children: [
         {
           label: 'Gaming',
@@ -387,6 +397,7 @@ import {
     {
       
       label: 'HOME APPLIANCES',
+      href: "/homeappliances",
       children:  [
         {
           label: 'Air Conditioners',
@@ -423,6 +434,7 @@ import {
     },
     {
       label: 'AUDIO',
+      href: "/audio",
       children: [
         {
           label: 'Bluetooth & WiFi Speakers', 

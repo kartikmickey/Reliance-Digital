@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useContext } from 'react';
+import { useNavigate } from "react-router-dom";
 
 import {
     Box,
@@ -22,11 +23,15 @@ import {
   import { MdLocalShipping } from 'react-icons/md';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
+import { Context } from '../Components/Context';
   
   export default function Singleproductpage() {
 
     const {id}  = useParams();
-    const [data, setData] = useState({})
+    const [data, setData] = useState({});
+    const {cart, setCart} = useContext(Context)
+    // console.log(cart)
+    const navigate = useNavigate()
 
     useEffect(()=>{
         axios(`https://creepy-llama.cyclic.app/products/${id}`)
@@ -201,6 +206,7 @@ import axios from 'axios';
               mt={8}
               size={'lg'}
               py={'7'}
+              onClick={()=>navigate(`/cart/${id}`)}
               bg={useColorModeValue('#e4252a', 'gray.50')}
               color={useColorModeValue('white', 'gray.900')}
               textTransform={'uppercase'}
@@ -208,7 +214,8 @@ import axios from 'axios';
                 transform: 'translateY(2px)',
                 bg: "#003380",
                 boxShadow: 'lg',
-              }}>
+              }}
+              >
               Add to cart
             </Button>
   
