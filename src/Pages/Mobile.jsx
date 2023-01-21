@@ -146,7 +146,7 @@ function Rating({ rating, numReviews }) {
   }
 
 
-const Allproducts = () => {
+const Mobile = () => {
 
     const [data, setData]= useState([]);
     const [total , setTotal] = useState(1);
@@ -156,7 +156,7 @@ const Allproducts = () => {
     // console.log(search)
 
      useEffect(()=>{
-        axios(`https://creepy-llama.cyclic.app/products?_page=${page}&_limit=12&q=${search}&_sort=price&_order=${order}`)
+        axios(`https://creepy-llama.cyclic.app/products?_page=${page}&_limit=12&q=${search}&_sort=price&_order=${order}&category=Mobile`)
         .then((res)=>{
             setData(res.data)
             setTotal(Math.ceil(+res.headers['x-total-count']/12))
@@ -247,4 +247,4 @@ Next
   )
 }
 
-export default Allproducts
+export default Mobile
