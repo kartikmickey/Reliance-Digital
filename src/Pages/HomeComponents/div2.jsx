@@ -4,7 +4,7 @@ import { Box, IconButton, useBreakpointValue } from '@chakra-ui/react';
 import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
 // And react-slick as our Carousel Lib
 import Slider from 'react-slick';
-
+import './div3.css';
 // Settings for the slider
 const settings = {
   dots: true,
@@ -100,8 +100,9 @@ export default function Div2() {
         {cards.map((url, index) => (
           <Box
             key={index}
-            height={"300px"}
-            width={'100%'}
+            // height={"300px"}
+            // width={'100%'}
+            className="imgH"
             position="relative"
             backgroundPosition="center"
             backgroundRepeat="no-repeat"

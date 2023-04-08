@@ -1,5 +1,6 @@
 import React from 'react';
 import { Box, IconButton, useBreakpointValue } from '@chakra-ui/react';
+import './div3.css';
 // Here we have used react-icons package for the icons
 import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
 // And react-slick as our Carousel Lib
@@ -38,7 +39,7 @@ export default function Div1() {
     <Box
       position={'relative'}
     //   height={'auto'}
-    //   width={"100%"}
+      // width={"100%"}
       overflow={'hidden'}>
       {/* CSS files for react-slick */}
       <link
@@ -92,12 +93,13 @@ export default function Div1() {
         {cards.map((url, index) => (
           <Box
             key={index}
-            height={'300px'}
+            // height={"300px"}
+            className="imgH"
             // width={'100%'}
             position="relative"
             backgroundPosition="center"
             backgroundRepeat="no-repeat"
-            backgroundSize="cover"
+            backgroundSize = "cover"
             backgroundImage={`url(${url})`}
           />
         ))}

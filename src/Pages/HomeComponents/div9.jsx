@@ -3,6 +3,8 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 // import { Box, IconButton, useBreakpointValue } from '@chakra-ui/react';
 // Here we have used react-icons package for the icons
+import './div3.css';
+// className='div3'
 import {
     Flex,
     Circle,
@@ -177,7 +179,7 @@ const Div9 = () => {
         </button>
       
         </p>
-        <div style={{display: "grid" , gridTemplateColumns :"repeat(4, 1fr )" , gap: "20px" , margin: "25px" } }  >
+        <div className='div3' style={{display: "grid" ,  gap: "20px" , margin: "25px" } }  >
             <img style={{margin: "auto"}} src='https://www.reliancedigital.in/medias/5G-Smartphones-Category-Products-Carousel-20-01-2023.jpg?context=bWFzdGVyfGltYWdlc3w2ODQ1OHxpbWFnZS9qcGVnfGltYWdlcy9oM2IvaDI1Lzk5NTA0NDkxMDY5NzQuanBnfGE4MGNjNTMxNGUxNmE4YjU0MjUwOTAwZGUzM2Q1ZDY0YmE4ZDBiM2QyZGFmMzFiMjYzYjVlZGUxMzAxZDM5YTU' />
 {data?.map((e)=>
     <ProductAddToCart key={e.id} name={e.name} brand={e.brand} category={e.category} emi={e.emi} id={e.id} img={e.img} keyfeatures={e.keyfeatures} mrp={e.mrp} price={e.price} save={e.save}

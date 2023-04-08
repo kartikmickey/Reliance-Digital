@@ -73,7 +73,8 @@ import { Context } from '../Components/Context';
               }
               fit={'fit'}
               align={'center'}
-              w={'100%'}
+              margin="auto"
+              // w={'100%'}
               h={{ base: '100%', sm: '400px', lg: '500px' }}
             />
           </Flex>

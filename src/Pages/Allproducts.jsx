@@ -1,6 +1,6 @@
 import React , { useState, useContext } from 'react'
 import { useEffect } from 'react';
-
+import './all.css';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import {
@@ -196,7 +196,7 @@ console.log(total)
               }} >
   High To Low 
   </Button>
-    <div style={{display: "grid" , gridTemplateColumns :"repeat(4, 1fr )" , gap: "20px" , margin: "25px" } }  >
+    <div  className='div3' style={{display: "grid" , gap: "20px" , margin: "25px" } }  >
 
     {data?.map((e)=>
         // console.log(e.name);

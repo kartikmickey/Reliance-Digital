@@ -10,6 +10,7 @@ import HomeAppliances from '../Pages/HomeAppliances';
 import Audio from '../Pages/Audio';
 import Cart from '../Pages/Cart';
 import Login from '../Pages/Login';
+import SignUp from '../Pages/signUp';
 
 export const Allroutes = () => {
   return (
@@ -24,6 +25,7 @@ export const Allroutes = () => {
         <Route path='/audio' element={<Audio/>} />
         <Route path='/cart/:id' element={<Cart/>} />
         <Route path='/login' element={<Login/>} />
+        <Route path='/signup' element={<SignUp/>} />
     </Routes>
   )
 }
