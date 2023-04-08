@@ -23,8 +23,8 @@ import {
     ChevronDownIcon,
     ChevronRightIcon,
   } from '@chakra-ui/icons';
-  import { useNavigate } from "react-router-dom";
-  import { FaShoppingCart } from 'react-icons/fa';
+import { useNavigate } from "react-router-dom";
+import { FaShoppingCart } from 'react-icons/fa';
 import { useContext } from 'react';
 import { Context } from './Context';
   
@@ -42,7 +42,7 @@ import { Context } from './Context';
         // position={"fixed"}
           // bg={"#003380"}
           color={useColorModeValue('gray.600', 'white')}
-          minH={{base: "60px", md: "120px"}}
+          minH={{base: "60px", md: "80px", lg: "120px"}}
           py={{ base: 2 }}
           px={{ base: 4 }}
           // borderBottom={1}
@@ -80,7 +80,7 @@ import { Context } from './Context';
               color={useColorModeValue('gray.800', 'white')}>
                <Image onClick={()=>navigate("/")} src="https://www.reliancedigital.in/build/client/images/loaders/rd_logo.svg" />
                <Input
-               display={{base: "none", md: "flex"}}
+               display={{base: "none", lg: "flex"}}
                border="none"
                borderRadius="20px"
                mt={5}
@@ -93,7 +93,7 @@ import { Context } from './Context';
             placeholder='Find Your Favourite Products' />
             </Flex>
          {/* <Box  bg={"#003380"} >h</Box> */}
-         <Flex display={{ base: 'none', md: 'flex' }} ml={10} mt={3}   >
+         <Flex display={{ base: 'none', xl: 'flex' }} ml={10} mt={3}   >
               <DesktopNav />
             </Flex>
           </Flex>
@@ -105,13 +105,8 @@ import { Context } from './Context';
             flex={{ base: 1, md: 0 }}
             justify={'flex-end'}
             direction={'row'}
-            
             spacing={6}>
-             
-             
-
-              
-            <Button
+          <Button
             // mr={0}
             as={'a'}
             fontSize={'2xl'}

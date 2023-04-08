@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import './div3.css';
+// className='div3'
 // import { Box, IconButton, useBreakpointValue } from '@chakra-ui/react';
 // Here we have used react-icons package for the icons
 import {
@@ -177,7 +179,7 @@ const Div4 = () => {
         </button>
       
         </p>
-        <div style={{display: "grid" , gridTemplateColumns :"repeat(4, 1fr )" , gap: "20px" , margin: "25px" } }  >
+        <div className='div3' style={{display: "grid" , gap: "20px" , margin: "25px" } }  >
             <img style={{margin: "auto"}} src='https://www.reliancedigital.in/medias/Trending-Laptops-Producst-Carousel-02-01-2022.jpg?context=bWFzdGVyfGltYWdlc3w5MjUxN3xpbWFnZS9qcGVnfGltYWdlcy9oMjEvaGVhLzk5MzkyMDU0ODg2NzAuanBnfGU5ZWJhMjc5M2M2NDg2ZGY4NWVjYTZjYjhjMzE0MjM4ZmU5YTZjY2M3OWI1YjYyZmY4ZDlmMDlmMGZhYmMwMTE' />
 {data?.map((e)=>
     <ProductAddToCart key={e.id} name={e.name} brand={e.brand} category={e.category} emi={e.emi} id={e.id} img={e.img} keyfeatures={e.keyfeatures} mrp={e.mrp} price={e.price} save={e.save}

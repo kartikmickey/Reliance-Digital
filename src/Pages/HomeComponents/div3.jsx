@@ -3,6 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 // import { Box, IconButton, useBreakpointValue } from '@chakra-ui/react';
 // Here we have used react-icons package for the icons
+import './div3.css';
 import {
     Flex,
     Circle,
@@ -161,8 +162,9 @@ const Div3 = () => {
     const [data, setData]= useState([]);
     const [total , setTotal] = useState(1);
     const [page, setPage] = useState(1)
+    // const [limit , setLimit] = useState(true);
 
-
+    console.log(window.screen.width)
      useEffect(()=>{
         axios(`https://creepy-llama.cyclic.app/products?_page=${page}&_limit=4&category=HomeAppliances`)
         .then((res)=>{
@@ -177,6 +179,16 @@ const Div3 = () => {
      if(page<1){
         setPage(1)
      }
+    //  if(window.screen.width <=720){
+    //    setLimit(1)
+    //   }
+    // if(window.screen.width <=1050){
+    //     setLimit(2)
+    //    }
+    // if(window.screen.width <=1330){
+    //    setLimit(false)
+    //   }
+   
     //  console.log(data)
 
 
@@ -194,7 +206,7 @@ const Div3 = () => {
         </button>
       
         </p>
-        <div style={{display: "grid" , gridTemplateColumns :"repeat(4, 1fr )" , gap: "20px" , margin: "25px" } }  >
+        <div className='div3' style={{display: "grid" , gap: "20px" , margin: "25px" } }  >
 
 {data?.map((e)=>
     // console.log(e.name);
@@ -203,7 +215,8 @@ warranty={e.warranty}
     />
 )}
         </div>
-         <IconButton
+        <IconButton
+        // display=""
         aria-label="left-arrow"
         variant='outline'
         colorScheme="red"
@@ -219,7 +232,7 @@ warranty={e.warranty}
         zIndex={2}
         onClick={() => setPage(page-1)}
         >
-        <BiLeftArrowAlt />
+        <BiLeftArrowAlt/>
       </IconButton>
       {/* Right Icon */}
       <IconButton
