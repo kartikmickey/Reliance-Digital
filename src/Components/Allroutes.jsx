@@ -11,6 +11,7 @@ import Audio from '../Pages/Audio';
 import Cart from '../Pages/Cart';
 import Login from '../Pages/Login';
 import SignUp from '../Pages/signUp';
+import Payment from '../Pages/Payment';
 
 export const Allroutes = () => {
   return (
@@ -26,6 +27,7 @@ export const Allroutes = () => {
         <Route path='/cart/:id' element={<Cart/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/signup' element={<SignUp/>} />
+        <Route path='/payment' element={<Payment/>} />
     </Routes>
   )
 }

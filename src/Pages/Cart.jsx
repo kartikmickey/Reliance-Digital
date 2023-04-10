@@ -2,6 +2,8 @@ import React , {useContext} from 'react'
 import { Context } from '../Components/Context'
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
+
+import { useNavigate } from "react-router-dom";
 import {
 Button,
   Image, 
@@ -18,6 +20,8 @@ import Delete from './Delete';
 
 const Cart = () => {
     const {id}  = useParams();
+    
+    const navigate = useNavigate()
     // const {cart, setCart} = useContext(Context);
     const [data, setData] = React.useState(
       {brand: "Redmi",
@@ -120,7 +124,11 @@ if(qty<1)
       {/* <Button variant='solid' colorScheme='blue'>
         Buy Latte
       </Button> */}
-      <Modal1/>
+      {/* <Modal1/>
+       */}
+        <Button 
+        bg={"#003380"}
+         colorScheme={"blue"} onClick={()=>navigate("/payment")}>Buy Now </Button>
       <Delete/>
     </CardFooter>
   </Stack>

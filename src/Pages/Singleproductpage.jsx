@@ -31,6 +31,7 @@ import { Context } from '../Components/Context';
     const [data, setData] = useState({});
     const {cart, setCart} = useContext(Context)
     // console.log(cart)
+    
     const navigate = useNavigate()
 
     useEffect(()=>{
