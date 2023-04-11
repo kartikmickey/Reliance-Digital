@@ -2,6 +2,9 @@
     grid-template-columns: repeat(4, 1fr ) 
     
 }
+.div12{
+    grid-template-columns:  repeat(5, 1fr )
+}
 .iconButton{
     margin-left: 2.5px;
 }
@@ -13,6 +16,9 @@
     .div3{
         grid-template-columns: repeat(3, 1fr ) 
         
+    }
+    .div12{
+        grid-template-columns:  repeat(4, 1fr )
     }
     .iconButton{
         display: none;
@@ -27,6 +33,9 @@
         grid-template-columns: repeat(2, 1fr ) 
         
     }
+    .div12{
+        grid-template-columns:  repeat(3, 1fr )
+    }
     .iconButton{
         display: none;
     }
@@ -39,6 +48,9 @@
     .div3{
         grid-template-columns: repeat(1, 1fr ) 
         
+    }
+    .div12{
+        grid-template-columns:  repeat(2, 1fr )
     }
     .iconButton{
         display: none;

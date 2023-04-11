@@ -1,4 +1,5 @@
 import React from 'react'
+import './div3.css';
 
 const Div12 = () => {
     
@@ -11,7 +12,7 @@ const Div12 = () => {
         <div style={{color: "#333333",fontSize:"21px", lineHeight: "normal", fontWeight:"700" , textAlign: "center" }} >EXPLORE OUR RANGE OF PRODUCTS
       
         </div>
-        <div style={{display: "grid" , gridTemplateColumns :"repeat(5, 1fr )" , gap: "20px" , margin: "25px" } }  >
+        <div className='div12' style={{display: "grid" , gap: "20px" , margin: "25px" } }  >
             <div style={{textAlign: "center"}}  >
             <img style={{margin: "auto"}} 
             src='https://www.reliancedigital.in/medias/Watch-180x180-27-02-2020.png?context=bWFzdGVyfGltYWdlc3w2Njk2fGltYWdlL3BuZ3xpbWFnZXMvaGQ1L2g2My85MjUzNTA3NTk2MzE4LnBuZ3w4NmEwODU5NDI5YzVlMzJjNzRlNzNlYmJkMmJmYTZjMTI2OWY0YTUxYWU3YzMzM2E3YTc5YjljZmU4ZGMyNGQ2' />
