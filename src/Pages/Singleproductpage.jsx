@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from 'react';
-import { useNavigate } from "react-router-dom";
+import { json, useNavigate } from "react-router-dom";
 
 import {
     Box,
@@ -31,6 +31,7 @@ import { Context } from '../Components/Context';
     const [data, setData] = useState({});
     const {cart, setCart} = useContext(Context)
     // console.log(cart)
+    
     const navigate = useNavigate()
 
     useEffect(()=>{
@@ -40,6 +41,15 @@ import { Context } from '../Components/Context';
             
         })
     },[id])
+    const handleCart = ()=>{
+      // let data = []
+      let get = JSON.parse(localStorage.getItem("cart")|| "[]") 
+      get.push(data)
+      let set = localStorage.setItem("cart", JSON.stringify(get))
+      console.log(get);
+      navigate("/cart")
+      
+    }
 
     const {brand,
         category,
@@ -207,7 +217,8 @@ import { Context } from '../Components/Context';
               mt={8}
               size={'lg'}
               py={'7'}
-              onClick={()=>navigate(`/cart/${id}`)}
+              onClick={handleCart}
+              // onClick={()=>navigate(`/cart/${id}`)}
               bg={useColorModeValue('#e4252a', 'gray.50')}
               color={useColorModeValue('white', 'gray.900')}
               textTransform={'uppercase'}

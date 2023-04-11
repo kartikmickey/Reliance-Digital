@@ -18,7 +18,7 @@ function Modal1() {
       <>
         <Button 
         bg={"#003380"}
-         colorScheme={"blue"} onClick={onOpen}>Buy Now</Button>
+         colorScheme={"blue"} onClick={onOpen}>Pay Now </Button>
   
         <Modal isOpen={isOpen} onClose={onClose}>
           <ModalOverlay />

@@ -13,10 +13,27 @@ import {
     } from '@chakra-ui/react';
 import {useNavigate } from 'react-router-dom';
 
-function Delete() {
-    const { isOpen, onOpen, onClose } = useDisclosure()
-    const cancelRef = React.useRef()
+function Delete({id,price, qty}) {
+  console.log(id)
   const navigate = useNavigate()
+  const { isOpen, onOpen, onClose } = useDisclosure()
+  const cancelRef = React.useRef()
+  const handleDelete = ()=> {
+    let get = JSON.parse(localStorage.getItem("cart")|| "[]") 
+    let newGet = get.filter((e)=> 
+    e.id !== id
+    )
+    localStorage.setItem("cart", JSON.stringify(newGet))
+    let totalP = +localStorage.getItem("total") || 0
+      totalP = +totalP - +price*qty
+      let setTotalP = localStorage.setItem("total", +totalP)
+      localStorage.setItem(`qty${id}`, 1) 
+    // navigate("/cart")
+    window.location.reload()
+    onClose()
+  }
+   
+ 
     return (
       <>
         <Button ml={2} bg={"#e4252a"} colorScheme='red' onClick={onOpen}>
@@ -44,7 +61,7 @@ function Delete() {
                 ref={cancelRef} onClick={onClose}>
                   Cancel
                 </Button>
-                <Button bg={"#e4252a"} colorScheme='red' onClick={()=>navigate("/")} ml={3}>
+                <Button bg={"#e4252a"} colorScheme='red' onClick={handleDelete} ml={3}>
                   Delete
                 </Button>
               </AlertDialogFooter>

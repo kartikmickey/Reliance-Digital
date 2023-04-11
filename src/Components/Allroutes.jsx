@@ -8,9 +8,10 @@ import Singleproductpage from '../Pages/Singleproductpage';
 import TV from '../Pages/Television';
 import HomeAppliances from '../Pages/HomeAppliances';
 import Audio from '../Pages/Audio';
-import Cart from '../Pages/Cart';
+import Cart from '../Pages/Cart.jsx';
 import Login from '../Pages/Login';
 import SignUp from '../Pages/signUp';
+import Payment from '../Pages/Payment';
 
 export const Allroutes = () => {
   return (
@@ -23,9 +24,10 @@ export const Allroutes = () => {
         <Route path='/televisions' element={<TV/>} />
         <Route path='/homeappliances' element={<HomeAppliances/>} />
         <Route path='/audio' element={<Audio/>} />
-        <Route path='/cart/:id' element={<Cart/>} />
+        <Route path='/cart' element={<Cart/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/signup' element={<SignUp/>} />
+        <Route path='/payment' element={<Payment/>} />
     </Routes>
   )
 }

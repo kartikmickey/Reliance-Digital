@@ -13,6 +13,7 @@ import {
     useColorModeValue,
     Icon,
     chakra,
+    Select,
     IconButton, useBreakpointValue,
     Tooltip,
   } from '@chakra-ui/react';
@@ -152,16 +153,17 @@ const Audio = () => {
     const [total , setTotal] = useState(1);
     const [page, setPage] = useState(1)
     const [order, setOrder] = useState("desc")
+    const [sort, setSort] = useState("price")
     const {  search } = useContext(Context)
     // console.log(search)
 
      useEffect(()=>{
-        axios(`https://creepy-llama.cyclic.app/products?_page=${page}&_limit=12&q=${search}&_sort=price&_order=${order}&category=Audio`)
+        axios(`https://creepy-llama.cyclic.app/products?_page=${page}&_limit=12&q=${search}&_sort=${sort}&_order=${order}&category=Audio`)
         .then((res)=>{
             setData(res.data)
             setTotal(Math.ceil(+res.headers['x-total-count']/12))
         })
-     },[page, search , order ]);
+     },[page, search , order ,sort]);
 
      console.log(data)
      if(page < 1){
@@ -173,7 +175,7 @@ const Audio = () => {
 console.log(total)
   return (
     <>
-   <Button size='md'  mt={"20px"}
+   {/* <Button size='md'  mt={"20px"}
       ml={"40.5%"}
       mr={"2%"}
       onClick={()=>setOrder("asc")}
@@ -195,7 +197,68 @@ console.log(total)
                 boxShadow: 'lg',
               }} >
   High To Low 
+  </Button> */}
+  <div style={{display: "grid" , gridTemplateColumns: "repeat(3, 1fr )"   } } >
+    <Select onChange={(e)=>setSort(e.target.value)} size='md'
+   m={"auto"}  mt={"20px"}
+      // ml={"40.5%"}
+      // mr={"2%"}
+      w={"120px"}
+      border={"none"}
+     bg={useColorModeValue("#003380", '"#e4252a"')}
+              color={useColorModeValue('white', "#e4252a")}
+              _hover={{
+                transform: 'translateY(2px)',
+                bg: "#e4252a",
+                boxShadow: 'lg',
+              }} 
+              // placeholder='Filter By'
+               >
+     <option style={{
+    backgroundColor: "#e4252a"
+  }}  value='price'>Filter By</option>
+  <option style={{
+    backgroundColor: "#003380"
+  }}  value='save'>Discount</option>
+  <option style={{
+    backgroundColor: "#e4252a"
+  }}  value='warranty'>Warranty</option>
+  <option style={{
+    backgroundColor: "#003380"
+  }}  value='emi'>EMI</option>
+</Select>
+
+   <Button size='md' 
+   m={"auto"}
+    mt={"20px"}
+      // ml={"40.5%"}
+      // mr={"2%"}
+      w={"120px"}
+      onClick={()=>setOrder("asc")}
+     bg={useColorModeValue("#003380", 'gray.50')}
+              color={useColorModeValue('white', 'gray.900')}
+              _hover={{
+                transform: 'translateY(2px)',
+                bg: "#e4252a",
+                boxShadow: 'lg',
+              }}  >
+    Low To High
   </Button>
+  <Button 
+   size='md' 
+   w={"120px"} 
+   m={"auto"}
+   mt={"20px"}  bg={useColorModeValue("#003380", 'gray.50')}
+   onClick={()=>setOrder("desc")}
+              color={useColorModeValue('white', 'gray.900')}
+              _hover={{
+                transform: 'translateY(2px)',
+                bg: "#e4252a",
+                boxShadow: 'lg',
+              }} >
+  High To Low 
+  </Button>
+  </div>
     <div  className='div3' style={{display: "grid"  , gap: "20px" , margin: "25px" } }  >
 
     {data?.map((e)=>
