@@ -116,7 +116,7 @@ import { Context } from './Context';
               color: "#003380"
             }}
             color={"white"}
-            href={`/cart/:id`}>
+            href={"/cart"}>
               
                 <FaShoppingCart  />
 

@@ -21,6 +21,7 @@ import Modal1 from "./Moda1l";
 // import Navbar from "../Navbar/Navbar";
 
 const Payment = () => {
+    let totalP = +localStorage.getItem("total") || 0
   const [cardNumber, setCardnumber] = useState("");
   const [cardname, setCardname] = useState("");
   const [month, setMonth] = useState("");
@@ -87,7 +88,13 @@ const Payment = () => {
     return errors;
   };
   return (
+    <>
+   
     <Box w="100%" margin='auto'>
+    <Text color="#e4252a"
+                _hover={{
+                    color: "#003380"
+                  }}  fontSize={"4xl"}  textAlign={"center"} margin={"auto"}  mt={"10"} mb={10}  >Grand Total: ₹{totalP}</Text>
     <Box display={'grid'} gridTemplateColumns={['repeat(1,1fr)','repeat(1,1fr)','repeat(1,1fr)','repeat(2,1fr)','repeat(2,1fr)']} >
         <Box 
             // pt="20"
@@ -95,7 +102,7 @@ const Payment = () => {
             display={{ lg: "flex", md: "flex", sm: "grid" }}
             // gap="20px"
             mb={"10"}
-            mt={"20"}
+            // mt={"20"}
             // padding={"30px"}
             justifyContent="space-between"
             align={"center"}
@@ -144,7 +151,7 @@ const Payment = () => {
             // padding={"30px"}
             // w={"800px"}
             mb={"10"}
-            mt={"20"}
+            // mt={"20"}
             justifyContent="space-between"
             align={"center"}
             justify={"center"}
@@ -516,6 +523,7 @@ const Payment = () => {
         </Box>
     </Box>
     </Box>
+    </>
   );
 };
 
