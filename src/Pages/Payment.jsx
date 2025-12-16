@@ -21,7 +21,7 @@ import Modal1 from "./Moda1l";
 // import Navbar from "../Navbar/Navbar";
 
 const Payment = () => {
-    let totalP = +localStorage.getItem("total") || 0
+  let totalP = +localStorage.getItem("total") || 0;
   const [cardNumber, setCardnumber] = useState("");
   const [cardname, setCardname] = useState("");
   const [month, setMonth] = useState("");
@@ -33,11 +33,25 @@ const Payment = () => {
   const [password, setPassword] = useState("");
   const [register2, setRegister2] = useState("");
   const [password2, setPassword2] = useState("");
-  const [formData, setFormData] = useState({firstName: "", lastName: "", city: "", address: "", pinCode: "", country: ""});
-  const [formErrors, setFormErrors] = useState({firstName: "", lastName: "", city: "", address: "", pinCode: "", country: ""});
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    city: "",
+    address: "",
+    pinCode: "",
+    country: "",
+  });
+  const [formErrors, setFormErrors] = useState({
+    firstName: "",
+    lastName: "",
+    city: "",
+    address: "",
+    pinCode: "",
+    country: "",
+  });
   const toast = useToast();
   const navigateTo = useNavigate();
- 
+
   const handleSubmit = () => {
     toast({
       title: "Processing...",
@@ -59,46 +73,83 @@ const Payment = () => {
     const { name, value } = event.target;
     setFormData((prevFormData) => ({
       ...prevFormData,
-      [name]: value
+      [name]: value,
     }));
   };
 
   const handleSubmit1 = (event) => {
     event.preventDefault();
     const errors = validate(formData);
-    if (Object.keys(errors).length > 0) { 
+    if (Object.keys(errors).length > 0) {
       setFormErrors(errors);
     } else {
-        console.log(formData,formErrors)
-      setFormData({firstName: "", lastName: "", city: "", address: "", pinCode: "", country: ""});
-      setFormErrors({firstName: "", lastName: "", city: "", address: "", pinCode: "", country: "" });
+      console.log(formData, formErrors);
+      setFormData({
+        firstName: "",
+        lastName: "",
+        city: "",
+        address: "",
+        pinCode: "",
+        country: "",
+      });
+      setFormErrors({
+        firstName: "",
+        lastName: "",
+        city: "",
+        address: "",
+        pinCode: "",
+        country: "",
+      });
     }
-
   };
 
   const validate = (formData) => {
     const errors = {};
-    if (!formData.firstName || !formData.lastName || !formData.city || !formData.address || !formData.pinCode || !formData.country) {
+    if (
+      !formData.firstName ||
+      !formData.lastName ||
+      !formData.city ||
+      !formData.address ||
+      !formData.pinCode ||
+      !formData.country
+    ) {
       errors.firstName = toast({
         title: `Enter All Details`,
-        status: 'warning',
+        status: "warning",
         isClosable: true,
-    });
+      });
     }
     return errors;
   };
   return (
     <>
-   
-    <Box w="100%" margin='auto'>
-    <Text color="#e4252a"
-                _hover={{
-                    color: "#003380"
-                  }}  fontSize={"4xl"}  textAlign={"center"} margin={"auto"}  mt={"10"} mb={10}  >Grand Total: ₹{totalP}</Text>
-    <Box display={'grid'} gridTemplateColumns={['repeat(1,1fr)','repeat(1,1fr)','repeat(1,1fr)','repeat(2,1fr)','repeat(2,1fr)']} >
-        <Box 
+      <Box w="100%" margin="auto">
+        <Text
+          color="#c62123"
+          _hover={{
+            color: "#003380",
+          }}
+          fontSize={"4xl"}
+          textAlign={"center"}
+          margin={"auto"}
+          mt={"10"}
+          mb={10}
+        >
+          Grand Total: ₹{totalP}
+        </Text>
+        <Box
+          display={"grid"}
+          gridTemplateColumns={[
+            "repeat(1,1fr)",
+            "repeat(1,1fr)",
+            "repeat(1,1fr)",
+            "repeat(2,1fr)",
+            "repeat(2,1fr)",
+          ]}
+        >
+          <Box
             // pt="20"
-            ml={["10",'40','40','40','40','60','80','100']}
+            ml={["10", "40", "40", "40", "40", "60", "80", "100"]}
             display={{ lg: "flex", md: "flex", sm: "grid" }}
             // gap="20px"
             mb={"10"}
@@ -106,46 +157,97 @@ const Payment = () => {
             // padding={"30px"}
             justifyContent="space-between"
             align={"center"}
-            justify={"center"}>
-            <Box width={"80%"}
-            boxShadow=" rgba(0, 0, 0, 0.24) 0px 3px 8px;"
-            borderRadius="20px"
-            
+            justify={"center"}
+          >
+            <Box
+              width={"80%"}
+              boxShadow=" rgba(0, 0, 0, 0.24) 0px 3px 8px;"
+              borderRadius="20px"
             >
-                <Heading color={"#003380"} ml="30px" pt='20px'>Fill Address</Heading>
-                <form id="box" onSubmit={handleSubmit1}
-                style={{width:"90%", margin:"auto",padding:"30px", textAlign:"start", fontWeight:"bold", color:"#061c45"}}>
-                    <Box p="1" mb={"5px"}>
-                        <label htmlFor="firstName" style={{paddingBottom:"10px"}}>First Name:</label>
-                        <Input type="text" id="firstName" name="firstName" value={formData.firstName} onChange={handleInputChange}/>
-                    </Box>
-                    <Box p="1" mb={"5px"}>
-                        <label htmlFor="lastName">Last Name:</label>
-                        <Input type="text" id="lastName" name="lastName" value={formData.lastName} onChange={handleInputChange}/>
-                    </Box>
-                    <Box p="1" mb={"5px"}>
-                        <label htmlFor="address">Address:</label>
-                        <Input type="text" id="address" name="address" value={formData.address} onChange={handleInputChange}/>
-                    </Box>
-                    <Box p="1" mb={"5px"}>
-                        <label htmlFor="pinCode">Pin Code:</label>
-                        <Input type="text" id="pinCode" name="pinCode" value={formData.pinCode} onChange={handleInputChange}/>
-                    </Box>
-                    <Box p="1" mb={"5px"}>
-                        <label htmlFor="city">City:</label>
-                        <Input type="text" id="city" name="city" value={formData.city} onChange={handleInputChange}/>
-                    </Box>
-                    <Box p="1" mb={"5px"}>
-                        <label htmlFor="country">State:</label>
-                        <Input type="text" id="country" name="country" value={formData.country} onChange={handleInputChange}/>
-                    </Box>
-                </form>
+              <Heading color={"#003380"} ml="30px" pt="20px">
+                Fill Address
+              </Heading>
+              <form
+                id="box"
+                onSubmit={handleSubmit1}
+                style={{
+                  width: "90%",
+                  margin: "auto",
+                  padding: "30px",
+                  textAlign: "start",
+                  fontWeight: "bold",
+                  color: "#061c45",
+                }}
+              >
+                <Box p="1" mb={"5px"}>
+                  <label htmlFor="firstName" style={{ paddingBottom: "10px" }}>
+                    First Name:
+                  </label>
+                  <Input
+                    type="text"
+                    id="firstName"
+                    name="firstName"
+                    value={formData.firstName}
+                    onChange={handleInputChange}
+                  />
+                </Box>
+                <Box p="1" mb={"5px"}>
+                  <label htmlFor="lastName">Last Name:</label>
+                  <Input
+                    type="text"
+                    id="lastName"
+                    name="lastName"
+                    value={formData.lastName}
+                    onChange={handleInputChange}
+                  />
+                </Box>
+                <Box p="1" mb={"5px"}>
+                  <label htmlFor="address">Address:</label>
+                  <Input
+                    type="text"
+                    id="address"
+                    name="address"
+                    value={formData.address}
+                    onChange={handleInputChange}
+                  />
+                </Box>
+                <Box p="1" mb={"5px"}>
+                  <label htmlFor="pinCode">Pin Code:</label>
+                  <Input
+                    type="text"
+                    id="pinCode"
+                    name="pinCode"
+                    value={formData.pinCode}
+                    onChange={handleInputChange}
+                  />
+                </Box>
+                <Box p="1" mb={"5px"}>
+                  <label htmlFor="city">City:</label>
+                  <Input
+                    type="text"
+                    id="city"
+                    name="city"
+                    value={formData.city}
+                    onChange={handleInputChange}
+                  />
+                </Box>
+                <Box p="1" mb={"5px"}>
+                  <label htmlFor="country">State:</label>
+                  <Input
+                    type="text"
+                    id="country"
+                    name="country"
+                    value={formData.country}
+                    onChange={handleInputChange}
+                  />
+                </Box>
+              </form>
             </Box>
-        </Box>
-        <Box
+          </Box>
+          <Box
             // pt="20"
             // m={"auto"}
-            ml={["10",'40','40','30','30','40','60','10']}
+            ml={["10", "40", "40", "30", "30", "40", "60", "10"]}
             display={{ lg: "flex", md: "flex", sm: "grid" }}
             // gap="20px"
             // padding={"30px"}
@@ -155,52 +257,50 @@ const Payment = () => {
             justifyContent="space-between"
             align={"center"}
             justify={"center"}
-        >
+          >
             <Box
-            width={"80%"}
-            boxShadow=" rgba(0, 0, 0, 0.24) 0px 3px 8px;"
-            borderRadius="20px"
+              width={"80%"}
+              boxShadow=" rgba(0, 0, 0, 0.24) 0px 3px 8px;"
+              borderRadius="20px"
             >
-            <Card
-             padding={"20px"}
-             >
+              <Card padding={"20px"}>
                 <Heading color={"#003380"}>Secure Payment</Heading>
                 <Box
-                textAlign="left"
-                mt={5}
-                pt={3}
-                pl={2}
-                width="100%"
-                height="100%"
+                  textAlign="left"
+                  mt={5}
+                  pt={3}
+                  pl={2}
+                  width="100%"
+                  height="100%"
                 >
-                <Text fontSize={15} as="b">
+                  <Text fontSize={15} as="b">
                     Choose Any One Option
-                </Text>
-                <Accordion allowMultiple>
+                  </Text>
+                  <Accordion allowMultiple>
                     <AccordionItem>
-                    <h2>
+                      <h2>
                         <AccordionButton>
-                        <Box as="span" textAlign="left" display="flex">
+                          <Box as="span" textAlign="left" display="flex">
                             <Box pr={2} mt={5}>
-                            {" "}
-                            <Image
+                              {" "}
+                              <Image
                                 w="20px"
                                 h="20px"
                                 src="https://tse2.mm.bing.net/th?id=OIP.F2WzA_N_bDQn2WSA8AolfAHaF7&pid=Api&P=0"
-                            />{" "}
+                              />{" "}
                             </Box>
                             <Box pr={1} mt={5}>
-                            CREDIT/DEBIT CARDS{" "}
+                              CREDIT/DEBIT CARDS{" "}
                             </Box>
-                        </Box>
-                        <AccordionIcon mt={5} />
+                          </Box>
+                          <AccordionIcon mt={5} />
                         </AccordionButton>
-                    </h2>
-                    <AccordionPanel pb={4}>
+                      </h2>
+                      <AccordionPanel pb={4}>
                         <Box>
-                        <Stack>
+                          <Stack>
                             <Box display="flex">
-                            <Input
+                              <Input
                                 type="number"
                                 name="alternumber"
                                 placeholder="Card Number"
@@ -208,321 +308,350 @@ const Payment = () => {
                                 maxLength="12"
                                 value={cardNumber}
                                 onChange={(e) => {
-                                setCardnumber(e.target.value);
+                                  setCardnumber(e.target.value);
                                 }}
-                            />{" "}
-                            <Image
+                              />{" "}
+                              <Image
                                 w="20px"
                                 h="20px"
                                 className="user"
                                 src="https://cdn-icons-png.flaticon.com/512/633/633611.png"
                                 alt="user"
-                            />{" "}
+                              />{" "}
                             </Box>
                             <Box display="flex">
-                            <Input
+                              <Input
                                 type="text"
                                 name="alternumber"
                                 placeholder="Name on card"
                                 variant="flushed"
                                 value={cardname}
                                 onChange={(e) => {
-                                setCardname(e.target.value);
+                                  setCardname(e.target.value);
                                 }}
-                            />{" "}
-                            <Image
+                              />{" "}
+                              <Image
                                 w="20px"
                                 h="20px"
                                 className="user"
                                 src="https://cdn-icons-png.flaticon.com/512/875/875610.png"
                                 alt="user"
-                            />
+                              />
                             </Box>
                             <Box display="flex" mt={8}>
-                            <Box>
+                              <Box>
                                 <Input
-                                type="number"
-                                name="mobile"
-                                maxLength="2"
-                                placeholder="Month"
-                                variant="flushed"
-                                value={month}
-                                onChange={(e) => {
+                                  type="number"
+                                  name="mobile"
+                                  maxLength="2"
+                                  placeholder="Month"
+                                  variant="flushed"
+                                  value={month}
+                                  onChange={(e) => {
                                     setMonth(e.target.value);
-                                }}
+                                  }}
                                 />
-                            </Box>
-                            <Box pl={4}>
+                              </Box>
+                              <Box pl={4}>
                                 <Input
-                                type="number"
-                                name="alternumber"
-                                placeholder="Year"
-                                maxLength="4"
-                                variant="flushed"
-                                value={year}
-                                onChange={(e) => {
+                                  type="number"
+                                  name="alternumber"
+                                  placeholder="Year"
+                                  maxLength="4"
+                                  variant="flushed"
+                                  value={year}
+                                  onChange={(e) => {
                                     setYear(e.target.value);
-                                }}
+                                  }}
                                 />
-                            </Box>
-                            <Box pl={4} display="flex">
+                              </Box>
+                              <Box pl={4} display="flex">
                                 <Input
-                                type="number"
-                                name="alternumber"
-                                placeholder="cvv"
-                                maxLength="3"
-                                variant="flushed"
-                                value={cvv}
-                                onChange={(e) => {
+                                  type="number"
+                                  name="alternumber"
+                                  placeholder="cvv"
+                                  maxLength="3"
+                                  variant="flushed"
+                                  value={cvv}
+                                  onChange={(e) => {
                                     setCvv(e.target.value);
-                                }}
+                                  }}
                                 />
                                 <Image
-                                w="15px"
-                                h="15px"
-                                className="user"
-                                src="https://cdn-icons-png.flaticon.com/512/633/633611.png"
-                                alt="user"
+                                  w="15px"
+                                  h="15px"
+                                  className="user"
+                                  src="https://cdn-icons-png.flaticon.com/512/633/633611.png"
+                                  alt="user"
                                 />
-                            </Box>
+                              </Box>
                             </Box>
                             <Box>
-                                {/* <Modal1/> */}
-                            <Button  bg={"#003380"}
-         colorScheme={"blue"}  onClick={handleSubmit}> <Modal1/></Button>
+                              {/* <Modal1/> */}
+                              <Button
+                                bg={"#003380"}
+                                colorScheme={"blue"}
+                                onClick={handleSubmit}
+                              >
+                                {" "}
+                                <Modal1 />
+                              </Button>
                             </Box>
-                        </Stack>
+                          </Stack>
                         </Box>
-                    </AccordionPanel>
+                      </AccordionPanel>
                     </AccordionItem>
-                </Accordion>
-                <Accordion allowMultiple>
+                  </Accordion>
+                  <Accordion allowMultiple>
                     <AccordionItem>
-                    <h2>
+                      <h2>
                         <AccordionButton>
-                        <Box
+                          <Box
                             as="span"
                             mt={5}
                             flex="1"
                             textAlign="left"
                             display="flex"
-                        >
+                          >
                             <Box pr={2} mt={5}>
-                            {" "}
-                            <Image
+                              {" "}
+                              <Image
                                 w="20px"
                                 h="20px"
                                 src="https://tse1.mm.bing.net/th?id=OIP.XjrLqW94tDW93_Tq_7JWzAHaHa&pid=Api&P=0"
-                            />
+                              />
                             </Box>{" "}
                             <Box pr={1} mt={5}>
-                            {" "}
-                            UPI PAYMENT
+                              {" "}
+                              UPI PAYMENT
                             </Box>
-                        </Box>
+                          </Box>
 
-                        <AccordionIcon mt={5} />
+                          <AccordionIcon mt={5} />
                         </AccordionButton>
-                    </h2>
-                    <AccordionPanel pb={4}>
+                      </h2>
+                      <AccordionPanel pb={4}>
                         <Box w="80">
-                        <Stack>
+                          <Stack>
                             <Box pl={4}>
-                            <Input
+                              <Input
                                 type="email"
                                 name="alternumber"
                                 placeholder="Ex- mobileNumber@ybl or userid@oksbi"
                                 variant="flushed"
                                 value={upi}
                                 onChange={(e) => {
-                                setUpi(e.target.value);
+                                  setUpi(e.target.value);
                                 }}
-                            />
+                              />
                             </Box>
                             <Box>
-                            <Button  bg={"#003380"}
-         colorScheme={"blue"}  onClick={handleSubmit}> <Modal1/></Button>
+                              <Button
+                                bg={"#003380"}
+                                colorScheme={"blue"}
+                                onClick={handleSubmit}
+                              >
+                                {" "}
+                                <Modal1 />
+                              </Button>
                             </Box>
-                        </Stack>
+                          </Stack>
                         </Box>
-                    </AccordionPanel>
+                      </AccordionPanel>
                     </AccordionItem>
-                </Accordion>
-                <Accordion allowMultiple>
+                  </Accordion>
+                  <Accordion allowMultiple>
                     <AccordionItem>
-                    <h2>
+                      <h2>
                         <AccordionButton>
-                        <Box
+                          <Box
                             as="span"
                             mt={5}
                             flex="1"
                             textAlign="left"
                             display="flex"
-                        >
+                          >
                             <Box pr={2} mt={5}>
-                            <Image
+                              <Image
                                 w="20px"
                                 h="20px"
                                 src="https://tse1.mm.bing.net/th?id=OIP.frkMALy3NuQXFoJ1hSlYHwAAAA&pid=Api&P=0"
-                            />
+                              />
                             </Box>{" "}
                             <Box pr={1} mt={5}>
-                            {" "}
-                            CASH ON DELIVERY
+                              {" "}
+                              CASH ON DELIVERY
                             </Box>
-                        </Box>
-                        <AccordionIcon mt={5} />
+                          </Box>
+                          <AccordionIcon mt={5} />
                         </AccordionButton>
-                    </h2>
-                    <AccordionPanel pb={4}>
+                      </h2>
+                      <AccordionPanel pb={4}>
                         <Box>
-                        <Stack>
+                          <Stack>
                             <Box pl={4}>
-                            <Radio
+                              <Radio
                                 size="md"
                                 name="1"
                                 colorScheme="green"
                                 value={cash}
                                 onChange={(e) => {
-                                setCash(e.target.value);
+                                  setCash(e.target.value);
                                 }}
-                            >
+                              >
                                 cash on delivery
-                            </Radio>
+                              </Radio>
                             </Box>
                             <Box>
-                               
-                            <Button  bg={"#003380"}
-         colorScheme={"blue"}  onClick={handleSubmit}> <Modal1/></Button>
+                              <Button
+                                bg={"#003380"}
+                                colorScheme={"blue"}
+                                onClick={handleSubmit}
+                              >
+                                {" "}
+                                <Modal1 />
+                              </Button>
                             </Box>
-                        </Stack>
+                          </Stack>
                         </Box>
-                    </AccordionPanel>
+                      </AccordionPanel>
                     </AccordionItem>
-                </Accordion>
-                <Accordion allowMultiple>
+                  </Accordion>
+                  <Accordion allowMultiple>
                     <AccordionItem>
-                    <h2>
+                      <h2>
                         <AccordionButton>
-                        <Box
+                          <Box
                             as="span"
                             flex="1"
                             mt={5}
                             textAlign="left"
                             display="flex"
-                        >
+                          >
                             <Box pr={2} mt={5}>
-                            <Image
+                              <Image
                                 w="20px"
                                 h="20px"
                                 src="https://tse4.mm.bing.net/th?id=OIP.s5ks8hCxIrrGy09rFRF21wHaHa&pid=Api&P=0"
-                            />
+                              />
                             </Box>{" "}
                             <Box pr={1} mt={5}>
-                            {" "}
-                            MOBILE BANKING
+                              {" "}
+                              MOBILE BANKING
                             </Box>
-                        </Box>
-                        <AccordionIcon mt={5} />
+                          </Box>
+                          <AccordionIcon mt={5} />
                         </AccordionButton>
-                    </h2>
-                    <AccordionPanel pb={4}>
+                      </h2>
+                      <AccordionPanel pb={4}>
                         <Box>
-                        <Stack>
+                          <Stack>
                             <Box>
-                            <Input
+                              <Input
                                 type="number"
                                 value={register}
                                 onChange={(e) => {
-                                setRegister(e.target.value);
+                                  setRegister(e.target.value);
                                 }}
                                 placeholder="Registered No."
                                 variant="flushed"
-                            />
-                            <Input
+                              />
+                              <Input
                                 type="password"
                                 value={password}
                                 onChange={(e) => {
-                                setPassword(e.target.value);
+                                  setPassword(e.target.value);
                                 }}
                                 placeholder="Password"
                                 variant="flushed"
-                            />
+                              />
                             </Box>
                             <Box>
-                            <Button  bg={"#003380"}
-         colorScheme={"blue"}  onClick={handleSubmit}> <Modal1/></Button>
+                              <Button
+                                bg={"#003380"}
+                                colorScheme={"blue"}
+                                onClick={handleSubmit}
+                              >
+                                {" "}
+                                <Modal1 />
+                              </Button>
                             </Box>
-                        </Stack>
+                          </Stack>
                         </Box>
-                    </AccordionPanel>
+                      </AccordionPanel>
                     </AccordionItem>
-                </Accordion>
-                <Accordion allowMultiple>
+                  </Accordion>
+                  <Accordion allowMultiple>
                     <AccordionItem>
-                    <h2>
+                      <h2>
                         <AccordionButton>
-                        <Box
+                          <Box
                             as="span"
                             mt={5}
                             flex="1"
                             textAlign="left"
                             display="flex"
-                        >
+                          >
                             <Box pr={2} mt={5}>
-                            <Image
+                              <Image
                                 w="20px"
                                 h="20px"
                                 src="https://tse3.mm.bing.net/th?id=OIP.E9dKeQ_vx1MUbLp63z3WigHaHa&pid=Api&P=0"
-                            />
+                              />
                             </Box>{" "}
                             <Box pr={2} mt={5}>
-                            {" "}
-                            NET BANKING
+                              {" "}
+                              NET BANKING
                             </Box>
-                        </Box>
-                        <AccordionIcon mt={5} />
+                          </Box>
+                          <AccordionIcon mt={5} />
                         </AccordionButton>
-                    </h2>
-                    <AccordionPanel pb={4}>
+                      </h2>
+                      <AccordionPanel pb={4}>
                         <Box>
-                        <Stack>
+                          <Stack>
                             <Box>
-                            <Input
+                              <Input
                                 type="Name"
                                 value={register2}
                                 onChange={(e) => {
-                                setRegister2(e.target.value);
+                                  setRegister2(e.target.value);
                                 }}
                                 placeholder="Registered UserID"
                                 variant="flushed"
-                            />
-                            <Input
+                              />
+                              <Input
                                 type="password"
                                 value={password2}
                                 onChange={(e) => {
-                                setPassword2(e.target.value);
+                                  setPassword2(e.target.value);
                                 }}
                                 placeholder="Password"
                                 variant="flushed"
-                            />
+                              />
                             </Box>
                             <Box>
-                            <Button  bg={"#003380"}
-         colorScheme={"blue"}  onClick={handleSubmit}> <Modal1/></Button>
-                            {/* <Button onClick={handleSubmit}>Pay Now</Button> */}
+                              <Button
+                                bg={"#003380"}
+                                colorScheme={"blue"}
+                                onClick={handleSubmit}
+                              >
+                                {" "}
+                                <Modal1 />
+                              </Button>
+                              {/* <Button onClick={handleSubmit}>Pay Now</Button> */}
                             </Box>
-                        </Stack>
+                          </Stack>
                         </Box>
-                    </AccordionPanel>
+                      </AccordionPanel>
                     </AccordionItem>
-                </Accordion>
+                  </Accordion>
                 </Box>
-            </Card>
+              </Card>
             </Box>
+          </Box>
         </Box>
-    </Box>
-    </Box>
+      </Box>
     </>
   );
 };

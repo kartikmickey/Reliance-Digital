@@ -1,10 +1,10 @@
-import React from 'react';
-import { Box, IconButton, useBreakpointValue } from '@chakra-ui/react';
-import './div3.css';
+import React from "react";
+import { Box, IconButton, useBreakpointValue } from "@chakra-ui/react";
+import "./div3.css";
 // Here we have used react-icons package for the icons
-import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
+import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
 // And react-slick as our Carousel Lib
-import Slider from 'react-slick';
+import Slider from "react-slick";
 
 // Settings for the slider
 const settings = {
@@ -26,21 +26,22 @@ export default function Div1() {
 
   // These are the breakpoints which changes the position of the
   // buttons as the screen size changes
-  const top = useBreakpointValue({ base: '90%', md: '50%' });
-  const side = useBreakpointValue({ base: '30%', md: '10px' });
+  const top = useBreakpointValue({ base: "90%", md: "50%" });
+  const side = useBreakpointValue({ base: "30%", md: "10px" });
 
   // These are the images used in the slide
   const cards = [
-    'https://www.reliancedigital.in/medias/Teaser-Banner-18-01-2023-01.jpg?context=bWFzdGVyfGltYWdlc3wxNjAxMzh8aW1hZ2UvanBlZ3xpbWFnZXMvaGNmL2gzMS85OTQ5MzMxMjU5NDIyLmpwZ3wzYzRmZmY5OTBkNzc1NzAxN2FhMDQ4NDYzM2U2MGU3MmNlNDFiNTg3YThiMDNhMjkwNWQwMDA1NWI4YzkyODE2',
-    'https://www.reliancedigital.in/medias/intranet-Carousal-Banner-Desktop.jpg?context=bWFzdGVyfGltYWdlc3wxMDI1MTN8aW1hZ2UvanBlZ3xpbWFnZXMvaDkzL2hlMC85OTQxNTE2MTU2OTU4LmpwZ3wxMDJmNjQ2YzdjYTIyMzk2NTM5NTMyYjZhNTgyN2M2MjlhMTM3Y2FmNWNhZjAwNzUxY2ExMjg0ZmNhNGMxZjRl'
+    "https://www.reliancedigital.in/medias/Teaser-Banner-18-01-2023-01.jpg?context=bWFzdGVyfGltYWdlc3wxNjAxMzh8aW1hZ2UvanBlZ3xpbWFnZXMvaGNmL2gzMS85OTQ5MzMxMjU5NDIyLmpwZ3wzYzRmZmY5OTBkNzc1NzAxN2FhMDQ4NDYzM2U2MGU3MmNlNDFiNTg3YThiMDNhMjkwNWQwMDA1NWI4YzkyODE2",
+    "https://www.reliancedigital.in/medias/intranet-Carousal-Banner-Desktop.jpg?context=bWFzdGVyfGltYWdlc3wxMDI1MTN8aW1hZ2UvanBlZ3xpbWFnZXMvaDkzL2hlMC85OTQxNTE2MTU2OTU4LmpwZ3wxMDJmNjQ2YzdjYTIyMzk2NTM5NTMyYjZhNTgyN2M2MjlhMTM3Y2FmNWNhZjAwNzUxY2ExMjg0ZmNhNGMxZjRl",
   ];
 
   return (
     <Box
-      position={'relative'}
-    //   height={'auto'}
+      position={"relative"}
+      //   height={'auto'}
       // width={"100%"}
-      overflow={'hidden'}>
+      overflow={"hidden"}
+    >
       {/* CSS files for react-slick */}
       <link
         rel="stylesheet"
@@ -56,36 +57,37 @@ export default function Div1() {
       {/* Left Icon */}
       <IconButton
         aria-label="left-arrow"
-        variant='outline'
+        variant="outline"
         colorScheme="red"
-        backgroundColor= "#EEEEEE"
+        backgroundColor="#EEEEEE"
         _hover={{
-            backgroundColor: "white",
+          backgroundColor: "white",
         }}
-        
         position="absolute"
         left={side}
         top={top}
-        transform={'translate(0%, -50%)'}
+        transform={"translate(0%, -50%)"}
         zIndex={2}
-        onClick={() => slider?.slickPrev()}>
+        onClick={() => slider?.slickPrev()}
+      >
         <BiLeftArrowAlt />
       </IconButton>
       {/* Right Icon */}
       <IconButton
         aria-label="right-arrow"
         colorScheme="red"
-        variant='outline'
-        backgroundColor= "#EEEEEE"
+        variant="outline"
+        backgroundColor="#EEEEEE"
         _hover={{
-            backgroundColor: "white",
+          backgroundColor: "white",
         }}
         position="absolute"
         right={side}
         top={top}
-        transform={'translate(0%, -50%)'}
+        transform={"translate(0%, -50%)"}
         zIndex={2}
-        onClick={() => slider?.slickNext()}>
+        onClick={() => slider?.slickNext()}
+      >
         <BiRightArrowAlt />
       </IconButton>
       {/* Slider */}
@@ -99,7 +101,7 @@ export default function Div1() {
             position="relative"
             backgroundPosition="center"
             backgroundRepeat="no-repeat"
-            backgroundSize = "cover"
+            backgroundSize="cover"
             backgroundImage={`url(${url})`}
           />
         ))}
