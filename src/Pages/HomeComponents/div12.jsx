@@ -44,7 +44,7 @@ const Div12 = () => {
         <div style={{ textAlign: "center" }}>
           <img
             style={{ margin: "auto" }}
-            src="https://www.reliancedigital.in/medias/Explore-Our-Range-of-Products-AC.png?context=bWFzdGVyfGltYWdlc3wxNzI3NnxpbWFnZS9wbmd8aW1hZ2VzL2hmMy9oNDMvOTg5MjQwNzQ0MzQ4Ni5wbmd8ODkxZDlkYTUxODhkM2RiOWUzMTU4ZDZhYmVkYTM3MzE2MDEyNDEzODMzNWZlZWQ5ZDQwMzNmMWM1OTliZGYwZA"
+            src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:250/tcl/581112202/0/VPwZ8UFfbf-qHHuHtDxO-kVrCcQW45B-o_C_S4iuc-581112202-1.jpg"
           />
 
           <h3
