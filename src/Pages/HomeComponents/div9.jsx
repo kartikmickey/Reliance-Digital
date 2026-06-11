@@ -220,7 +220,7 @@ const Div9 = () => {
       >
         <img
           style={{ margin: "auto" }}
-          src="https://www.reliancedigital.in/medias/5G-Smartphones-Category-Products-Carousel-20-01-2023.jpg?context=bWFzdGVyfGltYWdlc3w2ODQ1OHxpbWFnZS9qcGVnfGltYWdlcy9oM2IvaDI1Lzk5NTA0NDkxMDY5NzQuanBnfGE4MGNjNTMxNGUxNmE4YjU0MjUwOTAwZGUzM2Q1ZDY0YmE4ZDBiM2QyZGFmMzFiMjYzYjVlZGUxMzAxZDM5YTU"
+          src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/company/1/applications/645a057875d8c4882b096f7e/theme/pictures/free/original/theme-image-1780400911787.png"
         />
         {data?.map((e) => (
           <ProductAddToCart
